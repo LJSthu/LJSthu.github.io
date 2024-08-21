@@ -6,13 +6,13 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
   <title>{{ site.data.main_info.name }} | {{ page.title }}</title>
-  <meta name="description" content="Zitao Liu">
-  <meta name="author" content="Zitao Liu">
-  <meta property="og:title" content="Zitao Liu" />
+  <meta name="description" content="Jiashuo Liu">
+  <meta name="author" content="Jiashuo Liu">
+  <meta property="og:title" content="Jiashuo Liu" />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="http://www.zitaoliu.com" />
-  <meta property="og:site_name" content="Zitao Liu" />
-  <link rel="canonical" href="http://www.zitaoliu.com" />
+  <meta property="og:url" content="http://www.LJSthu.github.io" />
+  <meta property="og:site_name" content="Jiashuo Liu" />
+  <link rel="canonical" href="http://www.LJSthu.github.io" />
 
   <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -68,14 +68,19 @@
 
     <section class="header">
       <div class="row">
-        <div class="three columns">
-          <a href="{{ site.baseurl }}/"><img class="u-max-full-width" src='{{ site.baseurl }}{{ site.data.main_info.profile_pic }}'></a>
-        </div>
         <div class="nine columns main-description">
             <h1>{{ site.data.main_info.name }}</h1>
             <p>{{ site.data.main_info.info }}</p>
             <p>{{ site.data.main_info.title }}</p>
-            <p>{{ site.data.main_info.email }}</p>
+            <p>
+              <img src="./assets/icons/tsinghua.png" width=30 alt="Image 1" style="margin-right: 1px;">
+              <img src="./assets/icons/stanford.png" width=30 alt="Image 2" style="margin-right: 1px;">
+              <img src="./assets/icons/cbs.png" width=27 alt="Image 2" style="margin-right: 1px;">
+              <img src="./assets/icons/cambridge.png" width=27 alt="Image 2" style="margin-right: 1px;">
+              <img src="./assets/icons/wechat.png" width=30 alt="Image 2" style="margin-right: 1px;">
+            </p>
+
+            <br><p>{{ site.data.main_info.email }}</p>
             <p>
               <span onclick="window.open('{{ site.data.main_info.twitter }}')" style="cursor: pointer">
                 <i class="fa fa-twitter" aria-hidden="true"></i>
@@ -93,7 +98,12 @@
                 <i class="ai ai-google-scholar ai-lg" aria-hidden="true"></i>
               </span>
             </p>
+
         </div>
+        <div class="three columns">
+          <a href="{{ site.baseurl }}/"><img class="u-max-full-width" src='{{ site.baseurl }}{{ site.data.main_info.profile_pic }}'></a>
+        </div>
+        
       </div>
     </section>
 
@@ -102,12 +112,12 @@
       <div class="container">
         <ul class="navbar-list">
           <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#bio" | prepend: site.baseurl }}>Bio</a></li>
-          <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#news" | prepend: site.baseurl }}>News</a></li>
+          <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#tutorials" | prepend: site.baseurl }}>Tutorials</a></li>
           <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#publications" | prepend: site.baseurl }}>Publications</a></li>
           <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#achievements" | prepend: site.baseurl }}>Achievements</a></li>
           <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#services" | prepend: site.baseurl }}>Academic Service</a></li>
           <!--<li class="navbar-item"><a class="navbar-link" href={{ "/index.html#projects" | prepend: site.baseurl }}>Projects</a></li>-->
-          <!-- <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#resume" | prepend: site.baseurl }}>Vita</a></li> -->
+          <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#resume" | prepend: site.baseurl }}>Vitae</a></li>
         </ul>
       </div>
     </nav>

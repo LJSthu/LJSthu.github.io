@@ -5,22 +5,67 @@ title: Home
 <!-- ========== BIO ========== -->
 <div class="docs-section" id="bio">
   <h4>Bio</h4>
-  <p>My research is in the area of machine learning, and includes contributions in the areas of <b>artificial intelligence in education</b> and <b>educational data mining</b>. I have published 80+ papers in highly ranked conference proceedings and my applied research has resulted in 40+ technology transfer and patents. </p>
+  Hi, Im Jiashuo! I'm a final-year Ph.D. candidate in the Department of Computer Science & Technology at Tsinghua University, advised by <a href="http://pengcui.thumedialab.com"><u>Prof. Peng Cui</u></a> and <a href="https://www.sem.tsinghua.edu.cn/en/info/1219/6985.htm"><u>Prof. Bo Li</u></a>. 
+    I was a visiting student researcher at <a href="https://web.stanford.edu/~jblanche/"><u>Prof. Jose H. Blanchet</u></a>'s group in the Department of Management Science & Engineering at Stanford University.
+    I also work remotely with <a href="https://hsnamkoong.github.io"><u>Prof. Hongseok Namkoong</u></a> in the Decision, Risk, and Operations division at Columbia Business School.
+    I am visiting <a href="https://www.vanderschaar-lab.com"><u>Prof. Mihaela van der Schaar</u></a>'s group at Cambridge Centre for AI in Medicine.
+    
+ <br><br>My research lies at the interface of <u><b>machine learning</b></u>, <u><b>operations research</b></u>, and <u><b>health-care applications</b></u>, including:
+ <br> <b>(1) Generalization under Distribution Shifts</b>: Theoretical foundations and tools for understanding real-world distribution shifts;
+ <br><b>(2) Data Heterogeneity</b>: Algorithms to model and exploit data heterogeneity under distribution shifts;
+ <br><b>(3) Data-Driven Distributionally robust optimization</b>: Addressing the over-pessimism problem in real applications.
+  
+<br><br>Recently, I'm focusing on the robust optimization with/for LLMs as well as Health-Care applications.<br>
 
-  <p>I conduct <b>reproducible</b> research. Trained models, datasets and scripts of data preprocessing and model training can be found at <a href="https://www.pykt.org/" target="_blank">pykt.org</a>, <a href="https://github.com/ai4ed/" target="_blank">ai4ed@GitHub</a>, <a href="https://github.com/tal-ai/" target="_blank">tal-ai@GitHub</a>, and <a href="https://github.com/tal-tech/" target="_blank">tal-tech@GitHub</a>.</p>
-
-  <p>Before joining <a href="https://ise.jnu.edu.cn/" target="_blank">JNU</a>, I was the CTO of <a href="https://www.thethinkacademy.com/" target="_blank">ThinkAcademy</a>, CTO of <a href="https://www.xesvip.com/" target="_blank">Xueersi 1 on 1</a> and Head of AI Lab at <a href="https://www.100tal.com/" target="_blank">TAL Education Group</a> (NYSE: TAL).</p>
+[<a href="https://drive.google.com/file/d/1nFTctd-FKoznBTzvc7xNP4ankHrlCicZ/view?usp=share_link" target="_blank"> CV English </a>][<a href="https://drive.google.com/file/d/1HtW2SA93uRQyF7evqZu4EjWFcq3XA28z/view?usp=share_link" target="_blank">CV Chinese</a>]                 
 
 
 <!-- ========== NEWS ========== -->
-<div class="docs-section" id="news">
-  <h4>News</h4>
+<div class="docs-section" id="tutorials">
+  <h4>Tutorials/Talks</h4>
 
-  <ul>
-    {% for nw in site.data.news.news %}
-    <div class="row">{{ nw.date }}:  {{ nw.title }}</div>
-    {% endfor %}
-  </ul>
+  {% assign selected_papers = site.data.news.talks | where: "selected", "y" %}
+      {% for paper in selected_papers %}
+        <div class="paper">
+          <p class="title"><b>{{ paper.title }}</b></p>
+          <p>{{ paper.authors }}</p>
+          <p><i>{{ paper.venue }}</i></p>
+           <div class="paper-buttons">
+            {% if paper.paper_pdf %}
+              <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">Paper</a>
+            {% endif %}
+
+            {% if paper.slides %}
+              <a class="button" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
+            {% endif %}
+
+            {% if paper.poster %}
+              <a class="button" href="{{ paper.poster | prepend: site.baseurl }}" target="_blank">Poster</a>
+            {% endif %}
+
+            {% if paper.video %}
+              <a class="button" href="{{ paper.video }}" target="_blank">Video</a>
+            {% endif %}
+
+            {% if paper.code %}
+              <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
+            {% endif %}
+
+            {% if paper.data %}
+              <a class="button" href="{{ paper.data }}" target="_blank">Data</a>
+            {% endif %}
+            
+            {% if paper.package %}
+              <a class="button" href="{{ paper.package }}" target="_blank">Python Package</a>
+            {% endif %}
+
+            {% if paper.media %}
+              <a class="button" href="{{ paper.media }}" target="_blank">Media</a>
+            {% endif %}
+
+          </div>
+        </div>
+      {% endfor %}
 
 </div>
 
@@ -29,14 +74,15 @@ title: Home
 <div class="docs-section" id="publications">
   <h4>Publications</h4>
 
-  <p>Most recent publications on <a href="{{ site.data.main_info.google_scholar }}" target="_blank">Google Scholar</a>.
+  <p>Most recent publications on <a href="{{ site.data.main_info.google_scholar }}" target="_blank">Google Scholar</a>. * denotes equal contributions.
   </p>
 
   <ul class="tab-nav">
     <li><div class="button active" data-ref="#papers-selected">Selected</div></li>
-    <li><div class="button" data-ref="#papers-mldm">ML/DM</div></li>
-    <li><div class="button" data-ref="#papers-aied">AIED</div></li>
     <li><div class="button" data-ref="#papers-all">All</div></li>
+    <li><div class="button" data-ref="#papers-mldm">DistShift</div></li>
+    <li><div class="button" data-ref="#papers-aied">Heterogeneity</div></li>
+    <li><div class="button" data-ref="#papers-dro">DRO</div></li>
   </ul>
 
   <div class="tab-content">
@@ -71,6 +117,14 @@ title: Home
             {% if paper.data %}
               <a class="button" href="{{ paper.data }}" target="_blank">Data</a>
             {% endif %}
+            
+            {% if paper.package %}
+              <a class="button" href="{{ paper.package }}" target="_blank">Python Package</a>
+            {% endif %}
+
+            {% if paper.media %}
+              <a class="button" href="{{ paper.media }}" target="_blank">Media</a>
+            {% endif %}
 
           </div>
         </div>
@@ -79,8 +133,55 @@ title: Home
 
     <!-- ML+DM PAPERS -->
     <div class="tab-pane" id="papers-mldm">
-      {% assign mldm_papers = site.data.publications.papers | where: "mldm", "y" %}
-      {% for paper in mldm_papers %}
+      {% assign distshift_papers = site.data.publications.papers | where: "distshift", "y" %}
+      {% for paper in distshift_papers %}
+        <div class="paper">
+          <p class="title"><b>{{ paper.title }}</b></p>
+          <p>{{ paper.authors }}</p>
+          <p><i>{{ paper.venue }}</i></p>
+           <div class="paper-buttons">
+            {% if paper.paper_pdf %}
+              <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">Paper</a>
+            {% endif %}
+
+            {% if paper.slides %}
+              <a class="button" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
+            {% endif %}
+
+            {% if paper.poster %}
+              <a class="button" href="{{ paper.poster | prepend: site.baseurl }}" target="_blank">Poster</a>
+            {% endif %}
+
+            {% if paper.video %}
+              <a class="button" href="{{ paper.video }}" target="_blank">Video</a>
+            {% endif %}
+
+            {% if paper.code %}
+              <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
+            {% endif %}
+
+            {% if paper.data %}
+              <a class="button" href="{{ paper.data }}" target="_blank">Data</a>
+            {% endif %}
+            
+            {% if paper.package %}
+              <a class="button" href="{{ paper.package }}" target="_blank">Python Package</a>
+            {% endif %}
+
+            {% if paper.media %}
+              <a class="button" href="{{ paper.media }}" target="_blank">Media</a>
+            {% endif %}
+
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+
+
+    <!-- AIED PAPERS -->
+    <div class="tab-pane" id="papers-aied">
+      {% assign heterogeneity_papers = site.data.publications.papers | where: "heterogeneity", "y" %}
+      {% for paper in heterogeneity_papers %}
         <div class="paper">
           <p class="title"><b>{{ paper.title }}</b></p>
           <p>{{ paper.authors }}</p>
@@ -115,11 +216,10 @@ title: Home
       {% endfor %}
     </div>
 
-
-    <!-- AIED PAPERS -->
-    <div class="tab-pane" id="papers-aied">
-      {% assign aied_papers = site.data.publications.papers | where: "aied", "y" %}
-      {% for paper in aied_papers %}
+     <!-- AIED PAPERS -->
+     <div class="tab-pane" id="papers-dro">
+      {% assign dro_papers = site.data.publications.papers | where: "dro", "y" %}
+      {% for paper in dro_papers %}
         <div class="paper">
           <p class="title"><b>{{ paper.title }}</b></p>
           <p>{{ paper.authors }}</p>
@@ -196,71 +296,40 @@ title: Home
 
 
 
-
-
-
-
 <!-- ========== Achievements ========== -->
 <div class="docs-section" id="achievements">
   <h4>Achievements</h4>
 
   <ul class="tab-nav">
-    <li><div class="button active" data-ref="#achievements-uspatents">US Patents</div></li>
+    <li><div class="button active" data-ref="#achievements-awards">Awards</div></li>
     <li><div class="button" data-ref="#achievements-chinapatents">China Patents</div></li>
-    <li><div class="button" data-ref="#achievements-standards">Standards</div></li>
-    <li><div class="button" data-ref="#achievements-competitions">Competitions</div></li>
   </ul>
 
   <div class="tab-content">
 
-    <!-- US Patents -->
-    <div class="tab-pane active" id="achievements-uspatents">
-      {% assign us_patents = site.data.achievements.achievements | where: "us_patent", "y" %}
-      {% for paper in us_patents %}
+    <div class="tab-pane active" id="achievements-awards">
+      {% assign awards = site.data.achievements.awards | where: "awards", "y" %}
+      {% for paper in awards %}
         <div class="paper">
-          <p class="title"><b>{{ paper.title }}</b></p>
-          <p><i>{{ paper.patent_no }}</i>, {{ paper.date }}</p>
+          <p class="title"><b>{{ paper.title }}</b> <b>{{paper.rate}}</b>, {{ paper.subtitle}}</p>
         </div>
       {% endfor %}
     </div>
 
     <!-- China Patents -->
     <div class="tab-pane" id="achievements-chinapatents">
-      {% assign china_patents = site.data.achievements.achievements | where: "china_patent", "y" %}
+      {% assign china_patents = site.data.achievements.awards | where: "china_patent", "y" %}
       {% for paper in china_patents %}
         <div class="paper">
           <p class="title"><b>{{ paper.title }}</b></p>
-          <p><i>{{ paper.patent_no }}</i>, {{ paper.date }}</p>
+          <p>{{ paper.patent_no }}, {{ paper.date }}</p>
+          
+          {% if paper.certificate %}
+              <a class="button" href="{{ paper.certificate | prepend: site.baseurl }}" target="_blank">Certificate</a>
+            {% endif %}
         </div>
       {% endfor %}
     </div>
-
-
-    <!-- Standards -->
-    <div class="tab-pane" id="achievements-standards">
-      {% assign standards = site.data.achievements.achievements | where: "standard", "y" %}
-      {% for paper in standards %}
-        <div class="paper">
-          <p class="title"><b>{{ paper.title }}</b> ({{ paper.subtitle }})</p>
-          <p>{{ paper.standard_no }}</p>
-          <p><i>{{ paper.venue }}</i></p>
-        </div>
-      {% endfor %}
-    </div>
-
-
-    <!-- Competitions -->
-    <div class="tab-pane" id="achievements-competitions">
-      {% assign competitions = site.data.achievements.achievements | where: "competition", "y" %}
-      {% for paper in competitions %}
-        <div class="paper">
-          <p class="title">{{ paper.title }}</p>
-          <p><b>{{ paper.rank }}</b></p>
-          <p><i>{{ paper.venue }}</i></p>
-        </div>
-      {% endfor %}
-    </div>
-
 
   </div>
 </div>
@@ -272,141 +341,25 @@ title: Home
 <div class="docs-section" id="services">
   <h4>Services</h4>
 
-  <ul class="tab-nav">
-    <li><div class="button active" data-ref="#services-conferences">Conferences</div></li>
-    <li><div class="button" data-ref="#services-workshops">Workshops</div></li>
-    <li><div class="button" data-ref="#services-tutorials">Tutorials</div></li>
-  </ul>
-
-  <div class="tab-content">
-
-    <!-- Conferences -->
-    <div class="tab-pane active" id="services-conferences">
-      {% assign conferences = site.data.services.services | where: "conference", "y" %}
-      {% for paper in conferences %}
-        <div class="paper">
-          <p class="title"><b>{{ paper.title }}</b></p>
-          <p><i>{{ paper.role }}</i></p>
-        </div>
-      {% endfor %}
-    </div>
-
-    <!-- Workshops -->
-    <div class="tab-pane" id="services-workshops">
-      {% assign workshops = site.data.services.services | where: "workshop", "y" %}
-      {% for paper in workshops %}
-        <div class="paper">
-          <p class="title"><b>{{ paper.title }}</b></p>
-          <p>{{ paper.venue }}</p>
-          <p><i>{{ paper.role }}</i></p>
-        </div>
-      {% endfor %}
-    </div>
-
-
-    <!-- Tutorials -->
-    <div class="tab-pane" id="services-tutorials">
-      {% assign tutorials = site.data.services.services | where: "tutorial", "y" %}
-      {% for paper in tutorials %}
-        <div class="paper">
-          <p class="title"><b>{{ paper.title }}</b></p>
-          <p>{{ paper.venue }}</p>
-          <p><i>{{ paper.role }}</i></p>
-        </div>
-      {% endfor %}
-    </div>
-
-
-  </div>
+  <b>Journal reviewer</b>: Operations Research, IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), IEEE Transactions on Knowledge and Data Engineering (TKDE), IEEE Transactions on Multimedia (TMM)
+  <br><br>
+  <b>Conference reviewer / Program committee</b>: ICLR (2024), NeurIPS (2024, 2023), NeurIPS Datasets & Benchmark (2024), ICML (2022,2023,2024), UAI (2022,2023,2024), AAAI (2022), IJCAI (2022,2023), CVPR (2022,2023, 2024), ECCV (2024), ICCV (2023), CoLLAs (2022,2023,2024), AISTATS (2021,2023,2024), ICDM (2024), NeurIPS DistShift (2023)
+  <br><br>
+  <b>Teaching</b>:
+  <br>Machine Learning Summer Camp for Primary & Middle School Students at Cambridge University (Summer 2024)
+  <br>Software Engineering at Tsinghua University (Fall 2019, 2020, 2021, 2022, Spring 2022, 2023 TA)
+  <br>Object-oriented Programming at Tsinghua University (Summer 2022, TA)
 </div>
 
 
-
-
-
-<!-- ========== PROJECTS ========== 
-<div class="docs-section" id="projects">
-  <h4>Projects</h4>
-
-  <ul class="tab-nav">
-    <li><div class="button active" data-ref="#projects-selected">Selected</div></li>
-    <li><div class="button" data-ref="#projects-all">All</div></li>
-  </ul>
-
-  <div class="tab-content">
-    <div class="tab-pane active" id="projects-selected">
-      {% assign selected_projects = site.data.projects.projects | where: "selected", "y" %}
-      {% for project in selected_projects %}
-        {% assign index_modulo = forloop.index0 | modulo:3 %}
-        {% if index_modulo == 0 %}
-          <div class="row">
-        {% endif %}
-
-          <div class="four columns">
-            <div class="project-container">
-
-                <div class="project-image-container">
-                  <a href="{{ project.url }}">
-                    <img src="{{ project.thumbnail }}" class="u-max-full-width" />
-                  </a>
-                </div>
-
-                <div class="project-caption">
-                  <b>{{ project.title }}</b> <br/>
-                  {{ project.subtitle }}
-                </div>
-
-            </div>
-          </div>
-
-        {% if index_modulo == 2 %}
-          </div>
-        {% endif %}
-      {% endfor %}
-    </div>
-
-    <div class="tab-pane" id="projects-all">
-      {% for project in site.data.projects.projects %}
-        {% assign index_modulo = forloop.index0 | modulo:3 %}
-        {% if index_modulo == 0 %}
-          <div class="row">
-        {% endif %}
-
-          <div class="four columns">
-            <div class="project-container">
-
-                <div class="project-image-container">
-                  <a href="{{ project.url }}">
-                    <img src="{{ project.thumbnail }}" class="u-max-full-width" />
-                  </a>
-                </div>
-
-                <div class="project-caption">
-                  <b>{{ project.title }}</b> <br/>
-                  {{ project.subtitle }}
-                </div>
-
-            </div>
-          </div>
-
-        {% if index_modulo == 2 %}
-          </div>
-        {% endif %}
-      {% endfor %}
-    </div>
-  </div>
-
-</div>
--->
-
-<!-- ========== RESUME ========== 
+<!-- ========== RESUME ==========  -->
 <div class="docs-section" id="resume">
   <h4>Vitæ</h4>
 
-  <p>Full Resume in <a href={{ "/assets/cv/cv_web.pdf" | prepend: site.baseurl }} target="_blank">PDF</a>.</p>
+  <p>Full Resume in <a href={{ "/assets/jiashuo_cv.pdf" | prepend: site.baseurl }} target="_blank">PDF</a>.</p>
 
   <ul class="timeline">
-    {% for exp in site.data.education.experiences %}
+    {% for exp in site.data.experience.experiences %}
     <li>
       {% if exp.category == "work" %}
       <div class="direction-l">
@@ -424,5 +377,5 @@ title: Home
   </ul>
 </div>
 
--->
+
 
