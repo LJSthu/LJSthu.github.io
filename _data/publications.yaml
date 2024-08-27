@@ -8,7 +8,7 @@ papers:
   
   - venue: "Preprint"
     authors: "Jiayun Wu, <b>Jiashuo Liu</b>, Peng Cui, Zhiwei Steven Wu"
-    title: "Bridging Multicalibration and Out-of-distribution Generalization Beyond Co- variate Shift"
+    title: "Bridging Multicalibration and Out-of-distribution Generalization Beyond Covariate Shift"
     distshift: y 
     selected: n 
     paper_pdf: https://arxiv.org/abs/2406.00661
