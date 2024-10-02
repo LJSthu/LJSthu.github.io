@@ -1,12 +1,12 @@
 papers:
-  - venue: "Preprint"
-    authors: "Weihuang Zheng*, <b>Jiashuo Liu*</b>, Jiaxing Li, Jiayun Wu, Peng Cui, Youyong Kong"
-    title: "Topology-Aware Dynamic Reweighting for Distribution Shifts on Graph"
+  - venue: "Survey Paper"
+    authors: "<b>Jiashuo Liu*</b>, Zheyan Shen*, Yue He, Xingxuan Zhang, Renzhe Xu, Han Yu, Peng Cui"
+    title: "Towards Out-of-Distribution Generalization: A Survey"
+    distshift: y 
     selected: n 
-    paper_pdf: https://arxiv.org/abs/2406.01066
-    dro: y
-  
-  - venue: "Preprint"
+    paper_pdf: https://arxiv.org/abs/2108.13624
+
+  - venue: "NeurIPS'24: Neural Information Processing Systems 2024"
     authors: "Jiayun Wu, <b>Jiashuo Liu</b>, Peng Cui, Zhiwei Steven Wu"
     title: "Bridging Multicalibration and Out-of-distribution Generalization Beyond Covariate Shift"
     distshift: y 
@@ -14,14 +14,13 @@ papers:
     paper_pdf: https://arxiv.org/abs/2406.00661
   
   - venue: "Preprint"
-    authors: "<b>Jiashuo Liu*</b>, Zheyan Shen*, Yue He, Xingxuan Zhang, Renzhe Xu, Han Yu, Peng Cui"
-    title: "Towards Out-of-Distribution Generalization: A Survey"
-    distshift: y 
+    authors: "Weihuang Zheng*, <b>Jiashuo Liu*</b>, Jiaxing Li, Jiayun Wu, Peng Cui, Youyong Kong"
+    title: "Topology-Aware Dynamic Reweighting for Distribution Shifts on Graph"
     selected: n 
-    paper_pdf: https://arxiv.org/abs/2108.13624
-
-
-  - venue: "INFORMS'24 Workshop on Data Science, 2024 (full paper) <br> NeurIPS'23: Advances in Neural Information Processing Systems, Datasets and Benchmarks Track, 2023 <br> <b>Selected as NeurIPS Favorite Papers/Presentations (9/3500+) by Two Sigma</b> <br> Under review at Operations Research"
+    paper_pdf: https://arxiv.org/abs/2406.01066
+    dro: y
+  
+  - venue: "INFORMS'24 Workshop on Data Science, 2024 (full paper presentation) <br> NeurIPS'23: Advances in Neural Information Processing Systems, Datasets and Benchmarks Track, 2023 <br> <b>Selected as NeurIPS Favorite Papers/Presentations (9/3500+) by Two Sigma</b> <br> Under review at Operations Research"
     distshift: y
     authors: "<b>Jiashuo Liu*</b>, Tianyu Wang*, Peng Cui, Hongseok Namkoong"
     title: "On the Need of a Modeling Language for Distribution Shifts: Illustrations on Tabular Datasets"

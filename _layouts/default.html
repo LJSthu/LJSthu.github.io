@@ -80,8 +80,10 @@
               <img src="./assets/icons/wechat.png" width=30 alt="Image 2" style="margin-right: 1px;">
             </p>
 
-            <br><p>{{ site.data.main_info.email }}</p>
-            <p>
+            <!-- <br> -->
+            <p>{{ site.data.main_info.email }}
+            <!-- </p> -->
+            <!-- <p> -->
               <span onclick="window.open('{{ site.data.main_info.twitter }}')" style="cursor: pointer">
                 <i class="fa fa-twitter" aria-hidden="true"></i>
               </span>
@@ -98,12 +100,10 @@
                 <i class="ai ai-google-scholar ai-lg" aria-hidden="true"></i>
               </span>
             </p>
-
         </div>
         <div class="three columns">
           <a href="{{ site.baseurl }}/"><img class="u-max-full-width" src='{{ site.baseurl }}{{ site.data.main_info.profile_pic }}'></a>
         </div>
-        
       </div>
     </section>
 
@@ -116,7 +116,6 @@
           <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#publications" | prepend: site.baseurl }}>Publications</a></li>
           <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#achievements" | prepend: site.baseurl }}>Achievements</a></li>
           <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#services" | prepend: site.baseurl }}>Academic Service</a></li>
-          <!--<li class="navbar-item"><a class="navbar-link" href={{ "/index.html#projects" | prepend: site.baseurl }}>Projects</a></li>-->
           <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#resume" | prepend: site.baseurl }}>Vitae</a></li>
         </ul>
       </div>
@@ -131,7 +130,7 @@
         </div>
         <div class="six columns">
           <!-- {{ site.data.main_info.email }} -->
-          based on the template by <a href="http://web.media.mit.edu/~msaveski">Martin Saveski</a>
+          based on the template by <a href="https://faculty.washington.edu/msaveski/">Martin Saveski</a>
         </div>
         <div class="three columns">
           <span onclick="window.open('{{ site.data.main_info.twitter }}')" style="cursor: pointer">
