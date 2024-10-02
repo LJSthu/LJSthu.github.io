@@ -10,7 +10,7 @@ papers:
     authors: "Jiayun Wu, <b>Jiashuo Liu</b>, Peng Cui, Zhiwei Steven Wu"
     title: "Bridging Multicalibration and Out-of-distribution Generalization Beyond Covariate Shift"
     distshift: y 
-    selected: n 
+    selected: y 
     paper_pdf: https://arxiv.org/abs/2406.00661
   
   - venue: "Preprint"
@@ -49,7 +49,7 @@ papers:
     heterogeneity: y
     authors: "<b>Jiashuo Liu</b>, Jiayun Wu, Jie Peng, Xiaoyu Wu, Yang Zheng, Bo Li, Peng Cui"
     title: "Enhancing Distributional Stability among Sub-Populations"
-    selected: n
+    selected: y
     paper_pdf: https://arxiv.org/pdf/2206.02990
 
 
@@ -96,7 +96,7 @@ papers:
     dro: y
     authors: "<b>Jiashuo Liu</b>, Zheyan Shen, Peng Cui, Linjun Zhou, Kun Kuang, Bo Li"
     title: "Distributionally Robust Learning with Stable Adversarial Training"
-    selected: n
+    selected: y
     paper_pdf: https://ieeexplore.ieee.org/document/9961896
     
   - venue: "NeurIPS'22: Neural Information Processing Systems 2022 <b>(Spotlight)</b>"
@@ -121,7 +121,7 @@ papers:
     heterogeneity: y
     authors: "<b>Jiashuo Liu*</b>, Zheyuan Hu*, Peng Cui, Bo Li, Zheyan Shen"
     title: "Kernelized Heterogeneous Risk Minimization"
-    selected: n
+    selected: y
     paper_pdf: https://arxiv.org/pdf/2110.12425
 
   - venue: "ICML'21: International Conference on Machine Learning 2021"
@@ -135,7 +135,7 @@ papers:
     dro: y
     authors: "<b>Jiashuo Liu</b>, Zheyan Shen, Peng Cui, Linjun Zhou, Kun Kuang, Bo Li, Yishi Lin"
     title: "Stable Adversarial Learning under Distributional Shifts"
-    selected: n
+    selected: y
     paper_pdf: https://ojs.aaai.org/index.php/AAAI/article/view/17050
 
   - venue: "TPAMI'21: Transactions on Pattern Analysis and Machine Intelligence 2021"
