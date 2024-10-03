@@ -21,7 +21,7 @@
   <!-- FONT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link href='https://fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
-
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Dancing+Script&display=swap" rel="stylesheet">
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href={{ "/libs/external/skeleton/normalize.css" | prepend: site.baseurl }}>
@@ -68,8 +68,9 @@
 
     <section class="header">
       <div class="row">
-        <div class="nine columns main-description">
+        <div class="eight columns main-description">
             <h1>{{ site.data.main_info.name }}</h1>
+            <br>
             <p>{{ site.data.main_info.info }}</p>
             <p>{{ site.data.main_info.title }}</p>
             <p>
@@ -82,6 +83,9 @@
 
             <!-- <br> -->
             <p>{{ site.data.main_info.email }}
+
+            [<a href="https://drive.google.com/file/d/1nFTctd-FKoznBTzvc7xNP4ankHrlCicZ/view?usp=share_link" target="_blank"> CV English </a>][<a href="https://drive.google.com/file/d/1HtW2SA93uRQyF7evqZu4EjWFcq3XA28z/view?usp=share_link" target="_blank">CV Chinese</a>]                 
+            <br>
             <!-- </p> -->
             <!-- <p> -->
               <span onclick="window.open('{{ site.data.main_info.twitter }}')" style="cursor: pointer">
@@ -101,8 +105,13 @@
               </span>
             </p>
         </div>
-        <div class="three columns">
+        <div class="four columns">
           <a href="{{ site.baseurl }}/"><img class="u-max-full-width" src='{{ site.baseurl }}{{ site.data.main_info.profile_pic }}'></a>
+          <br>
+          <em style="font-family: 'Dancing Script', cursive;">&mdash;Fight against the grand and lengthy emptiness with subtle and constant efforts</em>
+         </div>
+        <div>
+          
         </div>
       </div>
     </section>

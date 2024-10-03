@@ -32,7 +32,7 @@ papers:
 
   - venue: "ICML'24: International Conference on Machine Learning 2024"
     distshift: y
-    authors: "(α-β order) Jose Blanchet, Peng Cui, Jiajin Li, <b>Jiashuo Liu</b>"
+    authors: "(α-β order) Jose Blanchet*, Peng Cui*, Jiajin Li*, <b>Jiashuo Liu*</b>"
     title: "Stability Evaluation via Distributional Perturbation Analysis"
     selected: y
     paper_pdf: https://arxiv.org/abs/2405.03198.pdf
