@@ -6,14 +6,14 @@ papers:
     selected: n 
     paper_pdf: https://arxiv.org/abs/2108.13624
   
-  -venue: "NeurIPS's Workshop on Table Representation Learning"
+  - venue: "NeurIPS'24 Workshop on Table Representation Learning"
     authors: "Yibo Zeng*, <b>Jiashuo Liu*</b>, Henry Lam, Hongseok Namkoong"
     title: "LLM Embeddings Improve Test-time Adaptation to Tabular Y|X-Shifts"
     distshift: y 
     selected: y 
     paper_pdf: "https://www.arxiv.org/pdf/2410.07395"
 
-  - venue: "NeurIPS's Workshop on Red Teaming GenAI, 2024"
+  - venue: "NeurIPS'24 Workshop on Red Teaming GenAI"
     authors: "<b>Jiashuo Liu</b>, Jiajin Li, Peng Cui, Jose Blanchet"
     title: "Stability Evaluation of Large Language Models via Distributional Perturbation Analysis"
     selected: y 
