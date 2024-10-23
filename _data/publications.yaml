@@ -44,7 +44,7 @@ papers:
     package: https://pypi.org/project/whyshift/
     media: https://www.twosigma.com/articles/neurips-2023-our-favorite-papers-on-llms-statistical-learning-and-more/
 
-  - venue: "ICML'24: International Conference on Machine Learning 2024"
+  - venue: "ICML'24: International Conference on Machine Learning 2024 <br> Invited talk at Advances in Data-Driven Distributionally Robust Optimization, INFORMS'24 Annual Meeting"
     distshift: y
     authors: "(α-β order) Jose Blanchet*, Peng Cui*, Jiajin Li*, <b>Jiashuo Liu*</b>"
     title: "Stability Evaluation via Distributional Perturbation Analysis"

@@ -4,6 +4,7 @@ talks:
     authors: "Speaker: <b>Jiashuo Liu</b>"
     selected: y
     venue: "INFORMS'24 Annual Meeting, Seattle, US <br> Advances in Data-Driven Distributionally Robust Optimization"
+    slides: "./assets/informs.pdf"
   
   - title: "Data Heterogeneity Analysis for Out-of-Distribution Generalization"
     authors: "Speaker: Peng Cui, <b>Jiashuo Liu</b>"
