@@ -36,6 +36,7 @@ papers:
   
   - venue: "INFORMS'24 Workshop on Data Science, 2024 (full paper presentation) <br> NeurIPS'23: Advances in Neural Information Processing Systems, Datasets and Benchmarks Track, 2023 <br> <b>Selected as NeurIPS Favorite Papers/Presentations (9/3500+) by Two Sigma</b> <br> Under review at Operations Research"
     distshift: y
+    heterogeneity: y
     authors: "<b>Jiashuo Liu*</b>, Tianyu Wang*, Peng Cui, Hongseok Namkoong"
     title: "On the Need of a Modeling Language for Distribution Shifts: Illustrations on Tabular Datasets"
     selected: y
@@ -60,7 +61,7 @@ papers:
 
   - venue: "AISTATS'24: International Conference on Artificial Intelligence and Statistics 2024"
     distshift: y
-    heterogeneity: y
+    dro: y
     authors: "<b>Jiashuo Liu</b>, Jiayun Wu, Jie Peng, Xiaoyu Wu, Yang Zheng, Bo Li, Peng Cui"
     title: "Enhancing Distributional Stability among Sub-Populations"
     selected: y
@@ -70,6 +71,7 @@ papers:
   - venue: "ICML'24: International Conference on Machine Learning 2024"
     authors: "Yue He, Dongbai Li, Pengfei Tian, Han Yu, <b>Jiashuo Liu</b>, Hao Zou, Peng Cui"
     title: "Domain-wise Data Acquisition to Improve Performance under Distribution Shift"
+    heterogeneity: y
     selected: n
     paper_pdf: https://openreview.net/pdf?id=0j28mmQ023
 
@@ -99,7 +101,7 @@ papers:
     selected: n
     paper_pdf: https://dl.acm.org/doi/pdf/10.1145/3543507.3583448
 
-  - venue: "ICLR'22: International Conference on Learning Representations 2022"
+  - venue: "ICLR'23: International Conference on Learning Representations 2023"
     heterogeneity: y
     authors: "<b>Jiashuo Liu*</b>, Jiayun Wu*, Renjie Pi, Renzhe Xu, Xingxuan Zhang, Bo Li, Peng Cui"
     title: "Measure the Predictive Heterogeneity"
@@ -132,14 +134,14 @@ papers:
     paper_pdf: https://dl.acm.org/doi/pdf/10.1145/3534678.3539439
 
   - venue: "NeurIPS'21: Neural Information Processing Systems 2021"
-    heterogeneity: y
+    dro: y
     authors: "<b>Jiashuo Liu*</b>, Zheyuan Hu*, Peng Cui, Bo Li, Zheyan Shen"
     title: "Kernelized Heterogeneous Risk Minimization"
     selected: y
     paper_pdf: https://arxiv.org/pdf/2110.12425
 
   - venue: "ICML'21: International Conference on Machine Learning 2021"
-    heterogeneity: y
+    dro: y
     authors: "<b>Jiashuo Liu</b>, Zheyuan Hu, Peng Cui, Bo Li, Zheyan Shen"
     title: "Heterogeneous Risk Minimization"
     selected: y

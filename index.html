@@ -10,15 +10,12 @@ title: Home
   I was a visiting student researcher at <a href="https://web.stanford.edu/~jblanche/"><u>Prof. Jose H. Blanchet</u></a>'s group in the Department of Management Science & Engineering at Stanford University.
   I work remotely with <a href="https://hsnamkoong.github.io"><u>Prof. Hongseok Namkoong</u></a> and <a href="https://www.columbia.edu/~khl2114/"><u>Prof. Henry Lam</u></a> at Columbia University.
     
- <br><br>My research lies at the interface of <u><b>machine learning</b></u>, <u><b>operations research</b></u>, and <u><b>health-care applications</b></u>, including:
- <br> <b>(1) Generalization under Distribution Shifts</b>: Tools for understanding real-world distribution shifts and empirical large-scale benchmarks on real-world tabular shifts.
- <br><b>(2) Data Heterogeneity</b>: Algorithms to model and exploit data heterogeneity for better generalization;
- <br><b>(3) Data-Driven Distributionally robust optimization</b>: Addressing the over-pessimism problem in real applications.
-  
-<br><br>Recently, I'm focusing on the robust optimization with/for LLMs, including:
-<br><b> (1) Leverage LLM Embeddings for Robust Tabular Prediction.</b>
-<br><b> (2) Evaluating the Stability of LLMs under Potential Distribution Shifts.</b>
-<br>
+ <br><br>I develop robust and reliable machine learning models, with a particular focus on addressing <u><b>distribution shifts</b></u>, and bridge the fields of <u><b>machine learning</b></u>, <u><b>operations research</b></u>, <b><u>causal inference</b></u>, and <u><b>healthcare</b></u>. My research centers on advancing model adaptability and accuracy in response to real-world variability, with key interests in:
+ <br> <b>(1) Inductive ways to understand distribution shifts</b>: Identify safe & risk regions (<a href="https://arxiv.org/abs/2307.05284">NeurIPS'23</a>), measure LLM stability under perturbations (<a href="">NeurIPS'24</a> Red Teaming GenAI), measure model & feature stability under shifts (<a href="https://arxiv.org/abs/2405.03198.pdf">ICML'24</a>).
+ <br><b>(2) Data foundations for distribution shifts</b>: Quantify data heterogeneity (<a href="https://openreview.net/pdf?id=g2oB_k-18b">ICLR'23</a>), large-scale benchmarks for tabular distribution shifts (<a href="https://arxiv.org/abs/2307.05284">NeurIPS'23</a>).
+ <br><b>(3) Methodology foundations for distribution shifts</b>: LLM embeddings for better adaptability to shifts (<a href="https://www.arxiv.org/pdf/2410.07395">NeurIPS'24</a> Table Representation Learning), Geometry-aware distributionally robust optimization (<a href="https://arxiv.org/pdf/2311.05054.pdf">ICML'24</a>, <a href="https://proceedings.neurips.cc/paper_files/paper/2022/file/da535999561b932f56efdd559498282e-Paper-Conference.pdf">NeurIPS'22</a>, <a href="https://ieeexplore.ieee.org/document/9961896">TKDE</a>, <a href="https://ojs.aaai.org/index.php/AAAI/article/view/17050">AAAI'21</a>), Heterogeneity-aware invariant learning (<a href="https://arxiv.org/pdf/2206.02990">AISTATS'24</a>, <a href="http://proceedings.mlr.press/v139/liu21h/liu21h.pdf">ICML'21</a>, <a href="https://arxiv.org/pdf/2110.12425">NeurIPS'21</a>).
+
+ <br><br>For more of my research, please refer to our <a href="https://drive.google.com/file/d/1QEsHWNK42-USisUSkld_f7UXs9z7_M1E/view?usp=sharing">NeurIPS'23 Tutorial</a>, <a href="./assets/CoLLAs2024.pdf">SDM'24 Tutorial</a>, and <a href="./assets/CoLLAs2024.pdf">CoLLAs'24 Tutorial</a>.
 </div>
 
 
@@ -33,34 +30,12 @@ title: Home
           <p>{{ paper.authors }}</p>
           <p><i>{{ paper.venue }}</i></p>
            <div class="paper-buttons">
-            {% if paper.paper_pdf %}
-              <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">Paper</a>
-            {% endif %}
-
             {% if paper.slides %}
               <a class="button" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
             {% endif %}
-
-            {% if paper.poster %}
-              <a class="button" href="{{ paper.poster | prepend: site.baseurl }}" target="_blank">Poster</a>
-            {% endif %}
-
             {% if paper.video %}
               <a class="button" href="{{ paper.video }}" target="_blank">Video</a>
             {% endif %}
-
-            {% if paper.code %}
-              <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
-            {% endif %}
-
-            {% if paper.data %}
-              <a class="button" href="{{ paper.data }}" target="_blank">Data</a>
-            {% endif %}
-            
-            {% if paper.package %}
-              <a class="button" href="{{ paper.package }}" target="_blank">Python Package</a>
-            {% endif %}
-
             {% if paper.media %}
               <a class="button" href="{{ paper.media }}" target="_blank">Media</a>
             {% endif %}
@@ -83,8 +58,8 @@ title: Home
     <li><div class="button active" data-ref="#papers-selected">Selected</div></li>
     <li><div class="button" data-ref="#papers-all">All</div></li>
     <li><div class="button" data-ref="#papers-mldm">DistShift</div></li>
-    <li><div class="button" data-ref="#papers-aied">Heterogeneity</div></li>
-    <li><div class="button" data-ref="#papers-dro">DRO</div></li>
+    <li><div class="button" data-ref="#papers-aied">Data-Centric</div></li>
+    <li><div class="button" data-ref="#papers-dro">Methodology</div></li>
   </ul>
 
   <div class="tab-content">
