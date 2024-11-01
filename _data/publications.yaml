@@ -12,6 +12,8 @@ papers:
     distshift: y 
     selected: y 
     paper_pdf: "https://www.arxiv.org/pdf/2410.07395"
+    media: https://www.marktechpost.com/2024/10/30/this-ai-paper-explores-how-large-language-model-embeddings-enhance-adaptability-in-predictive-modeling-for-shifting-tabular-data-environments/
+    code: https://github.com/namkoong-lab/LLM-Tabular-Shifts
 
   - venue: "NeurIPS'24 Workshop on Red Teaming GenAI"
     authors: "<b>Jiashuo Liu</b>, Jiajin Li, Peng Cui, Jose Blanchet"
@@ -26,6 +28,7 @@ papers:
     distshift: y 
     selected: y 
     paper_pdf: https://arxiv.org/abs/2406.00661
+    code: https://github.com/IC-hub/MC-Pseudolabel
   
   - venue: "Preprint"
     authors: "Weihuang Zheng*, <b>Jiashuo Liu*</b>, Jiaxing Li, Jiayun Wu, Peng Cui, Youyong Kong"
@@ -114,6 +117,7 @@ papers:
     title: "Distributionally Robust Learning with Stable Adversarial Training"
     selected: y
     paper_pdf: https://ieeexplore.ieee.org/document/9961896
+    code: https://github.com/LJSthu/StableAL
     
   - venue: "NeurIPS'22: Neural Information Processing Systems 2022 <b>(Spotlight)</b>"
     dro: y
@@ -139,6 +143,7 @@ papers:
     title: "Kernelized Heterogeneous Risk Minimization"
     selected: y
     paper_pdf: https://arxiv.org/pdf/2110.12425
+    code: https://github.com/LJSthu/Kernelized-HRM
 
   - venue: "ICML'21: International Conference on Machine Learning 2021"
     dro: y
@@ -146,6 +151,7 @@ papers:
     title: "Heterogeneous Risk Minimization"
     selected: y
     paper_pdf: http://proceedings.mlr.press/v139/liu21h/liu21h.pdf
+    code: https://github.com/LJSthu/HRM
     
   - venue: "AAAI'21: AAAI Conference on Artificial Intelligence"
     dro: y
@@ -153,6 +159,7 @@ papers:
     title: "Stable Adversarial Learning under Distributional Shifts"
     selected: y
     paper_pdf: https://ojs.aaai.org/index.php/AAAI/article/view/17050
+    code: https://github.com/LJSthu/StableAL
 
   - venue: "TPAMI'21: Transactions on Pattern Analysis and Machine Intelligence 2021"
     authors: "Chongxuan Li, Kun Xu, Jun Zhu, <b>Jiashuo Liu</b>, Bo Zhang"
