@@ -6,14 +6,14 @@ papers:
     selected: n 
     paper_pdf: https://arxiv.org/abs/2108.13624
   
-  - venue: "Transactions on Knowledge Discovery from Data (TKDD'24)"
+  - venue: "<b>TKDD'24</b>: Transactions on Knowledge Discovery from Data"
     authors: "Zimu Wang, Hao Zou, <b>Jiashuo Liu</b>, Jiayun Wu, Pengfei Tian, Yue He, Peng Cui"
     title: "AdaptSel: Adaptive Selection of Biased and Debiased Recommendation Models for Varying Test Environments"
     selected: n 
     distshift: y 
     paper_pdf: ""
   
-  - venue: "NeurIPS'24 Workshop on Table Representation Learning"
+  - venue: "<b>NeurIPS'24 Workshop</b> on Table Representation Learning"
     authors: "Yibo Zeng*, <b>Jiashuo Liu*</b>, Henry Lam, Hongseok Namkoong"
     title: "LLM Embeddings Improve Test-time Adaptation to Tabular Y|X-Shifts"
     distshift: y 
@@ -22,14 +22,14 @@ papers:
     media: https://www.marktechpost.com/2024/10/30/this-ai-paper-explores-how-large-language-model-embeddings-enhance-adaptability-in-predictive-modeling-for-shifting-tabular-data-environments/
     code: https://github.com/namkoong-lab/LLM-Tabular-Shifts
 
-  - venue: "NeurIPS'24 Workshop on Red Teaming GenAI"
+  - venue: "<b>NeurIPS'24 Workshop</b> on Red Teaming GenAI"
     authors: "<b>Jiashuo Liu</b>, Jiajin Li, Peng Cui, Jose Blanchet"
     title: "Stability Evaluation of Large Language Models via Distributional Perturbation Analysis"
     selected: y 
     distshift: y
     paper_pdf: ""
 
-  - venue: "NeurIPS'24: Neural Information Processing Systems 2024"
+  - venue: "<b>NeurIPS'24</b>: Neural Information Processing Systems 2024"
     authors: "Jiayun Wu, <b>Jiashuo Liu</b>, Peng Cui, Zhiwei Steven Wu"
     title: "Bridging Multicalibration and Out-of-distribution Generalization Beyond Covariate Shift"
     distshift: y 
@@ -44,7 +44,7 @@ papers:
     paper_pdf: https://arxiv.org/abs/2406.01066
     dro: y
   
-  - venue: "INFORMS'24 Workshop on Data Science, 2024 (full paper presentation) <br> NeurIPS'23: Advances in Neural Information Processing Systems, Datasets and Benchmarks Track, 2023 <br> <b>Selected as NeurIPS Favorite Papers/Presentations (9/3500+) by Two Sigma</b> <br> Under review at Management Science"
+  - venue: "<b>INFORMS'24 Workshop</b> on Data Science, 2024 (full paper presentation) <br> <b>NeurIPS'23</b>: Advances in Neural Information Processing Systems, Datasets and Benchmarks Track, 2023 <br> <b>Selected as NeurIPS Favorite Papers/Presentations (9/3500+) by Two Sigma</b> <br> Under review at Management Science"
     distshift: y
     heterogeneity: y
     authors: "<b>Jiashuo Liu*</b>, Tianyu Wang*, Peng Cui, Hongseok Namkoong"
@@ -55,21 +55,21 @@ papers:
     package: https://pypi.org/project/whyshift/
     media: https://www.twosigma.com/articles/neurips-2023-our-favorite-papers-on-llms-statistical-learning-and-more/
 
-  - venue: "ICML'24: International Conference on Machine Learning 2024 <br> Invited talk at Advances in Data-Driven Distributionally Robust Optimization, INFORMS'24 Annual Meeting"
+  - venue: "<b>ICML'24</b>: International Conference on Machine Learning 2024 <br> Invited talk at Advances in Data-Driven Distributionally Robust Optimization, INFORMS'24 Annual Meeting"
     distshift: y
     authors: "(α-β order) Jose Blanchet*, Peng Cui*, Jiajin Li*, <b>Jiashuo Liu*</b>"
     title: "Stability Evaluation via Distributional Perturbation Analysis"
     selected: y
     paper_pdf: https://arxiv.org/abs/2405.03198.pdf
 
-  - venue: "ICML'24: International Conference on Machine Learning 2024 <br> Short version at NeurIPS'23, Workshop on Distribution Shifts"
+  - venue: "<b>ICML'24</b>: International Conference on Machine Learning 2024 <br> Short version at NeurIPS'23, Workshop on Distribution Shifts"
     dro: y
     authors: "<b>Jiashuo Liu</b>, Jiayun Wu, Tianyu Wang, Hao Zou, Bo Li, Peng Cui"
     title: "Geometry-Calibrated DRO: Combating Over-Pessimism with Free Energy Implications"
     selected: y
     paper_pdf: https://arxiv.org/pdf/2311.05054.pdf
 
-  - venue: "AISTATS'24: International Conference on Artificial Intelligence and Statistics 2024"
+  - venue: "<b>AISTATS'24</b>: International Conference on Artificial Intelligence and Statistics 2024"
     distshift: y
     dro: y
     authors: "<b>Jiashuo Liu</b>, Jiayun Wu, Jie Peng, Xiaoyu Wu, Yang Zheng, Bo Li, Peng Cui"
@@ -78,47 +78,47 @@ papers:
     paper_pdf: https://arxiv.org/pdf/2206.02990
 
 
-  - venue: "ICML'24: International Conference on Machine Learning 2024"
+  - venue: "<b>ICML'24</b>: International Conference on Machine Learning 2024"
     authors: "Yue He, Dongbai Li, Pengfei Tian, Han Yu, <b>Jiashuo Liu</b>, Hao Zou, Peng Cui"
     title: "Domain-wise Data Acquisition to Improve Performance under Distribution Shift"
     heterogeneity: y
     selected: n
     paper_pdf: https://openreview.net/pdf?id=0j28mmQ023
 
-  - venue: "CVPR'24: Conference on Computer Vision and Pattern Recognition 2024"
+  - venue: "<b>CVPR'24</b>: Conference on Computer Vision and Pattern Recognition 2024"
     authors: "Fengda Zhang, Qianpei He, Kun Kuang, <b>Jiashuo Liu</b>, Long Chen, Chao Wu, Jun Xiao, Hanwang Zhang"
     title: "Distributionally Generative Augmentation for Fair Facial Attribute Classification"
     selected: n
     paper_pdf: https://openaccess.thecvf.com/content/CVPR2024/papers/Zhang_Distributionally_Generative_Augmentation_for_Fair_Facial_Attribute_Classification_CVPR_2024_paper.pdf
 
-  - venue: "CVPR'24: Conference on Computer Vision and Pattern Recognition 2024"
+  - venue: "<b>CVPR'24</b>: Conference on Computer Vision and Pattern Recognition 2024"
     authors: "Han Yu, Xingxuan Zhang, Renzhe Xu, <b>Jiashuo Liu</b>, Yue He, Peng Cui"
     title: "Rethinking the Evaluation Protocol of Domain Generalization"
     selected: n
     paper_pdf: https://openaccess.thecvf.com/content/CVPR2024/papers/Yu_Rethinking_the_Evaluation_Protocol_of_Domain_Generalization_CVPR_2024_paper.pdf
 
 
-  - venue: "ICLR'24: International Conference on Learning Representations 2024 (<b>(Spotlight)</b>) "
+  - venue: "<b>ICLR'24</b>: International Conference on Learning Representations 2024 (<b>(Spotlight)</b>) "
     distshift: y
     authors: "Yingtian Zou, Kenji Kawaguchi, Yingnan Liu, <b>Jiashuo Liu</b>, Mong-Li Lee, Wynne Hsu"
     title: "Towards Robust Out-of-Distribution Generalization Bounds via Sharpness"
     selected: y
     paper_pdf: https://openreview.net/pdf?id=tPEwSYPtAC
 
-  - venue: "WWW'23: The ACM Web Conference 2023"
+  - venue: "<b>WWW'23</b>: The ACM Web Conference 2023"
     authors: "Jie Peng, Hao Zou, <b>Jiashuo Liu</b>, Shaoming Li, Yibao Jiang, Jian Pei, Peng Cui"
     title: "Offline Policy Evaluation in Large Action Spaces via Outcome-Oriented Action Grouping"
     selected: n
     paper_pdf: https://dl.acm.org/doi/pdf/10.1145/3543507.3583448
 
-  - venue: "ICLR'23: International Conference on Learning Representations 2023"
+  - venue: "<b>ICLR'23</b>: International Conference on Learning Representations 2023"
     heterogeneity: y
     authors: "<b>Jiashuo Liu*</b>, Jiayun Wu*, Renjie Pi, Renzhe Xu, Xingxuan Zhang, Bo Li, Peng Cui"
     title: "Measure the Predictive Heterogeneity"
     selected: y
     paper_pdf: https://openreview.net/pdf?id=g2oB_k-18b
 
-  - venue: "TKDE'22: IEEE Transactions on Knowledge and Data Engineering 2022"
+  - venue: "<b>TKDE'22</b>: IEEE Transactions on Knowledge and Data Engineering 2022"
     dro: y
     authors: "<b>Jiashuo Liu</b>, Zheyan Shen, Peng Cui, Linjun Zhou, Kun Kuang, Bo Li"
     title: "Distributionally Robust Learning with Stable Adversarial Training"
@@ -126,25 +126,25 @@ papers:
     paper_pdf: https://ieeexplore.ieee.org/document/9961896
     code: https://github.com/LJSthu/StableAL
     
-  - venue: "NeurIPS'22: Neural Information Processing Systems 2022 <b>(Spotlight)</b>"
+  - venue: "<b>NeurIPS'22</b>: Neural Information Processing Systems 2022 <b>(Spotlight)</b>"
     dro: y
     authors: "<b>Jiashuo Liu*</b>, Jiayun Wu*, Bo Li, Peng Cui"
     title: "Distributionally Robust Optimization with Data Geometry"
     selected: y
     paper_pdf: https://proceedings.neurips.cc/paper_files/paper/2022/file/da535999561b932f56efdd559498282e-Paper-Conference.pdf
 
-  - venue: "JINST'22: Journal of Instrumentation 2022"
+  - venue: "<b>JINST'22</b>: Journal of Instrumentation 2022"
     authors: "Dacheng Xu, Benda Xu, Erjin Bao, Yiyang Wu, Aiqiang Zhang, Yuyi Wang, Geliang Zhang, Yu Xu, Ziyi Guo, Jihui Pei, Hanyang Mao, <b>Jiashuo Liu</b>, Zhe Wang, Shaomin Chen"
     title: "Towards the ultimate PMT waveform analysis for neutrino and dark matter experiments"
     selected: n
 
-  - venue: "KDD'22: SIGKDD Conference on Knowledge Discovery and Data Mining 2022"
+  - venue: "<b>KDD'22</b>: SIGKDD Conference on Knowledge Discovery and Data Mining 2022"
     authors: "Zimu Wang, Yue He, <b>Jiashuo Liu</b>, Wenchao Zou, Philip Yu, Peng Cui"
     title: "Invariant Preference Learning for General Debiasing in Recommendation"
     selected: n
     paper_pdf: https://dl.acm.org/doi/pdf/10.1145/3534678.3539439
 
-  - venue: "NeurIPS'21: Neural Information Processing Systems 2021"
+  - venue: "<b>NeurIPS'21</b>: Neural Information Processing Systems 2021"
     dro: y
     authors: "<b>Jiashuo Liu*</b>, Zheyuan Hu*, Peng Cui, Bo Li, Zheyan Shen"
     title: "Kernelized Heterogeneous Risk Minimization"
@@ -152,7 +152,7 @@ papers:
     paper_pdf: https://arxiv.org/pdf/2110.12425
     code: https://github.com/LJSthu/Kernelized-HRM
 
-  - venue: "ICML'21: International Conference on Machine Learning 2021"
+  - venue: "<b>ICML'21</b>: International Conference on Machine Learning 2021"
     dro: y
     authors: "<b>Jiashuo Liu</b>, Zheyuan Hu, Peng Cui, Bo Li, Zheyan Shen"
     title: "Heterogeneous Risk Minimization"
@@ -160,7 +160,7 @@ papers:
     paper_pdf: http://proceedings.mlr.press/v139/liu21h/liu21h.pdf
     code: https://github.com/LJSthu/HRM
     
-  - venue: "AAAI'21: AAAI Conference on Artificial Intelligence"
+  - venue: "<b>AAAI'21</b>: AAAI Conference on Artificial Intelligence"
     dro: y
     authors: "<b>Jiashuo Liu</b>, Zheyan Shen, Peng Cui, Linjun Zhou, Kun Kuang, Bo Li, Yishi Lin"
     title: "Stable Adversarial Learning under Distributional Shifts"
@@ -168,18 +168,18 @@ papers:
     paper_pdf: https://ojs.aaai.org/index.php/AAAI/article/view/17050
     code: https://github.com/LJSthu/StableAL
 
-  - venue: "TPAMI'21: Transactions on Pattern Analysis and Machine Intelligence 2021"
+  - venue: "<b>TPAMI'21</b>: Transactions on Pattern Analysis and Machine Intelligence 2021"
     authors: "Chongxuan Li, Kun Xu, Jun Zhu, <b>Jiashuo Liu</b>, Bo Zhang"
     title: "Triple Generative Adversarial Networks"
     selected: n
     
-  - venue: "KDD'21: SIGKDD Conference on Knowledge Discovery and Data Mining 2021"
+  - venue: "<b>KDD'21</b>: SIGKDD Conference on Knowledge Discovery and Data Mining 2021"
     authors: "Haoxin Liu, Ziwei Zhang, Peng Cui, Yafeng Zhang, Qiang Cui, <b>Jiashuo Liu</b>, Wenwu Zhu"
     title: "Signed Graph Neural Network with Latent Groups"
     selected: n
     paper_pdf: https://dl.acm.org/doi/10.1145/3447548.3467355
     
-  - venue: "KDD'20: SIGKDD Conference on Knowledge Discovery and Data Mining 2020"
+  - venue: "<b>KDD'20</b>: SIGKDD Conference on Knowledge Discovery and Data Mining 2020"
     authors: "Zheyan Shen, Peng Cui, <b>Jiashuo Liu</b>, Tong Zhang, Bo Li, Zhitang Chen"
     title: "Stable Learning via Differentiated Variable Decorrelation"
     selected: n 
