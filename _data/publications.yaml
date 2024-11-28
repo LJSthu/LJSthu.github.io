@@ -6,6 +6,13 @@ papers:
     selected: n 
     paper_pdf: https://arxiv.org/abs/2108.13624
   
+  - venue: "Transactions on Knowledge Discovery from Data (TKDD'24)"
+    authors: "Zimu Wang, Hao Zou, <b>Jiashuo Liu</b>, Jiayun Wu, Pengfei Tian, Yue He, Peng Cui"
+    title: "AdaptSel: Adaptive Selection of Biased and Debiased Recommendation Models for Varying Test Environments"
+    selected: n 
+    distshift: y 
+    paper_pdf: ""
+  
   - venue: "NeurIPS'24 Workshop on Table Representation Learning"
     authors: "Yibo Zeng*, <b>Jiashuo Liu*</b>, Henry Lam, Hongseok Namkoong"
     title: "LLM Embeddings Improve Test-time Adaptation to Tabular Y|X-Shifts"
@@ -37,7 +44,7 @@ papers:
     paper_pdf: https://arxiv.org/abs/2406.01066
     dro: y
   
-  - venue: "INFORMS'24 Workshop on Data Science, 2024 (full paper presentation) <br> NeurIPS'23: Advances in Neural Information Processing Systems, Datasets and Benchmarks Track, 2023 <br> <b>Selected as NeurIPS Favorite Papers/Presentations (9/3500+) by Two Sigma</b> <br> Under review at Operations Research"
+  - venue: "INFORMS'24 Workshop on Data Science, 2024 (full paper presentation) <br> NeurIPS'23: Advances in Neural Information Processing Systems, Datasets and Benchmarks Track, 2023 <br> <b>Selected as NeurIPS Favorite Papers/Presentations (9/3500+) by Two Sigma</b> <br> Under review at Management Science"
     distshift: y
     heterogeneity: y
     authors: "<b>Jiashuo Liu*</b>, Tianyu Wang*, Peng Cui, Hongseok Namkoong"

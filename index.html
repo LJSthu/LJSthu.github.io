@@ -10,10 +10,10 @@ title: Home
   I was a visiting student researcher at <a href="https://web.stanford.edu/~jblanche/"><u>Prof. Jose H. Blanchet</u></a>'s group in the Department of Management Science & Engineering at Stanford University.
   I work remotely with <a href="https://hsnamkoong.github.io"><u>Prof. Hongseok Namkoong</u></a> and <a href="https://www.columbia.edu/~khl2114/"><u>Prof. Henry Lam</u></a> at Columbia University.
     
- <br><br>I develop robust and reliable machine learning models, with a particular focus on addressing <u><b>distribution shifts</b></u>, and bridge the fields of <u><b>machine learning</b></u>, <u><b>operations research</b></u>, <b><u>causal inference</b></u>, and <u><b>healthcare</b></u>. My research centers on advancing model adaptability and accuracy in response to real-world variability, with key interests in:
+ <br><br>I develop robust, reliable, and fair machine learning models, with a particular focus on addressing <u><b>distribution shifts</b></u>, and bridge the fields of <u><b>machine learning</b></u>, <u><b>operations research</b></u>, <b><u>causal inference</b></u>, and <u><b>healthcare</b></u>. My research centers on advancing model adaptability and accuracy in response to real-world variability, with key interests in:
  <br> <b>(1) Inductive ways to understand distribution shifts</b>: Identify safe & risk regions (<a href="https://arxiv.org/abs/2307.05284">NeurIPS'23</a>), measure LLM stability under perturbations (<a href="">NeurIPS'24</a> Red Teaming GenAI), measure model & feature stability under shifts (<a href="https://arxiv.org/abs/2405.03198.pdf">ICML'24</a>).
- <br><b>(2) Data foundations for distribution shifts</b>: Quantify data heterogeneity (<a href="https://openreview.net/pdf?id=g2oB_k-18b">ICLR'23</a>), large-scale benchmarks for tabular distribution shifts (<a href="https://arxiv.org/abs/2307.05284">NeurIPS'23</a>).
- <br><b>(3) Methodology foundations for distribution shifts</b>: LLM embeddings for better adaptability to shifts (<a href="https://www.arxiv.org/pdf/2410.07395">NeurIPS'24</a> Table Representation Learning), Geometry-aware distributionally robust optimization (<a href="https://arxiv.org/pdf/2311.05054.pdf">ICML'24</a>, <a href="https://proceedings.neurips.cc/paper_files/paper/2022/file/da535999561b932f56efdd559498282e-Paper-Conference.pdf">NeurIPS'22</a>, <a href="https://ieeexplore.ieee.org/document/9961896">TKDE</a>, <a href="https://ojs.aaai.org/index.php/AAAI/article/view/17050">AAAI'21</a>), Heterogeneity-aware invariant learning (<a href="https://arxiv.org/pdf/2206.02990">AISTATS'24</a>, <a href="http://proceedings.mlr.press/v139/liu21h/liu21h.pdf">ICML'21</a>, <a href="https://arxiv.org/pdf/2110.12425">NeurIPS'21</a>).
+ <br><b>(2) Data-Centric ML for distribution shifts</b>: Quantify data heterogeneity (<a href="https://openreview.net/pdf?id=g2oB_k-18b">ICLR'23</a>, R&R at JMLR), large-scale benchmarks for tabular distribution shifts (<a href="https://arxiv.org/abs/2307.05284">NeurIPS'23</a>).
+ <br><b>(3) Methodology-Centric ML for distribution shifts</b>: LLM embeddings for better adaptability to shifts (<a href="https://www.arxiv.org/pdf/2410.07395">NeurIPS'24</a> Table Representation Learning), Geometry-aware distributionally robust optimization (<a href="https://arxiv.org/pdf/2311.05054.pdf">ICML'24</a>, <a href="https://proceedings.neurips.cc/paper_files/paper/2022/file/da535999561b932f56efdd559498282e-Paper-Conference.pdf">NeurIPS'22</a>, <a href="https://ieeexplore.ieee.org/document/9961896">TKDE</a>, <a href="https://ojs.aaai.org/index.php/AAAI/article/view/17050">AAAI'21</a>), Heterogeneity-aware invariant learning (<a href="https://arxiv.org/pdf/2206.02990">AISTATS'24</a>, <a href="http://proceedings.mlr.press/v139/liu21h/liu21h.pdf">ICML'21</a>, <a href="https://arxiv.org/pdf/2110.12425">NeurIPS'21</a>).
 
  <br><br>For more of my research, please refer to our <a href="https://drive.google.com/file/d/1QEsHWNK42-USisUSkld_f7UXs9z7_M1E/view?usp=sharing">NeurIPS'23 Tutorial</a>, <a href="./assets/CoLLAs2024.pdf">SDM'24 Tutorial</a>, and <a href="./assets/CoLLAs2024.pdf">CoLLAs'24 Tutorial</a>.
 </div>
@@ -187,7 +187,10 @@ title: Home
             {% if paper.data %}
               <a class="button" href="{{ paper.data }}" target="_blank">Data</a>
             {% endif %}
-
+            
+            {% if paper.media %}
+              <a class="button" href="{{ paper.media }}" target="_blank">Media</a>
+            {% endif %}
           </div>
         </div>
       {% endfor %}
@@ -226,6 +229,9 @@ title: Home
               <a class="button" href="{{ paper.data }}" target="_blank">Data</a>
             {% endif %}
 
+            {% if paper.media %}
+              <a class="button" href="{{ paper.media }}" target="_blank">Media</a>
+            {% endif %}
           </div>
         </div>
       {% endfor %}
@@ -261,6 +267,10 @@ title: Home
 
             {% if paper.data %}
               <a class="button" href="{{ paper.data }}" target="_blank">Data</a>
+            {% endif %}
+
+            {% if paper.media %}
+              <a class="button" href="{{ paper.media }}" target="_blank">Media</a>
             {% endif %}
 
           </div>
@@ -320,10 +330,10 @@ title: Home
 
   <b>Journal reviewer</b>: Operations Research, IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), IEEE Transactions on Knowledge and Data Engineering (TKDE), IEEE Transactions on Multimedia (TMM)
   <br><br>
-  <b>Conference reviewer / Program committee</b>: ICLR (2024), NeurIPS (2024, 2023), NeurIPS Datasets & Benchmark (2024), ICML (2022,2023,2024), UAI (2022,2023,2024), AAAI (2022), IJCAI (2022,2023), CVPR (2022,2023, 2024), ECCV (2024), ICCV (2023), CoLLAs (2022,2023,2024), AISTATS (2021,2023,2024), ICDM (2024), NeurIPS DistShift (2023)
+  <b>Conference reviewer / Program committee</b>: ICLR (2025, 2024), NeurIPS (2024, 2023), NeurIPS Datasets & Benchmark (2024), ICML (2024,2023,2022), UAI (2024,2023,2022), AAAI (2022), IJCAI (2023,2022), CVPR (2024,2023, 2022), ECCV (2024), ICCV (2023), CoLLAs (2024,2023,2022), AISTATS (2025,2024,2023,2021), ICDM (2024), NeurIPS DistShift (2023)
   <br><br>
   <b>Teaching</b>:
-  <br>Machine Learning Summer Camp for Primary & Middle School Students at Cambridge University (Summer 2024)
+  <br>Machine Learning Summer Camp for Primary & Middle School Students at Cambridge University (Summer 2024, with Prof. Mihaela van der Schaar)
   <br>Software Engineering at Tsinghua University (Fall 2019, 2020, 2021, 2022, Spring 2022, 2023 TA)
   <br>Object-oriented Programming at Tsinghua University (Summer 2022, TA)
 </div>
