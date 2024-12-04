@@ -24,9 +24,10 @@ title: Home
   <h4>Tutorials/Talks</h4>
 
   {% assign selected_papers = site.data.news.talks | where: "selected", "y" %}
+  {% assign length = selected_papers | size %}
       {% for paper in selected_papers %}
         <div class="paper">
-          <p class="title"><b>{{ paper.title }}</b></p>
+          <p class="title"><b>[{{ length | minus: forloop.index0}}] {{ paper.title }}</b></p>
           <p>{{ paper.authors }}</p>
           <p><i>{{ paper.venue }}</i></p>
            <div class="paper-buttons">
@@ -65,9 +66,10 @@ title: Home
   <div class="tab-content">
     <div class="tab-pane active" id="papers-selected">
       {% assign selected_papers = site.data.publications.papers | where: "selected", "y" %}
+      {% assign length = selected_papers | size %}
       {% for paper in selected_papers %}
         <div class="paper">
-          <p class="title"><b>{{ paper.title }}</b></p>
+          <p class="title"><b>[{{ length | minus: forloop.index0}}] {{ paper.title }}</b></p>
           <p>{{ paper.authors }}</p>
           <p><i>{{ paper.venue }}</i></p>
            <div class="paper-buttons">
@@ -111,9 +113,10 @@ title: Home
     <!-- ML+DM PAPERS -->
     <div class="tab-pane" id="papers-mldm">
       {% assign distshift_papers = site.data.publications.papers | where: "distshift", "y" %}
+      {% assign length = distshift_papers | size %}
       {% for paper in distshift_papers %}
         <div class="paper">
-          <p class="title"><b>{{ paper.title }}</b></p>
+          <p class="title"><b>[{{ length | minus: forloop.index0}}] {{ paper.title }}</b></p>
           <p>{{ paper.authors }}</p>
           <p><i>{{ paper.venue }}</i></p>
            <div class="paper-buttons">
@@ -158,9 +161,10 @@ title: Home
     <!-- AIED PAPERS -->
     <div class="tab-pane" id="papers-aied">
       {% assign heterogeneity_papers = site.data.publications.papers | where: "heterogeneity", "y" %}
+      {% assign length = heterogeneity_papers | size %}
       {% for paper in heterogeneity_papers %}
         <div class="paper">
-          <p class="title"><b>{{ paper.title }}</b></p>
+          <p class="title"><b>[{{ length | minus: forloop.index0}}] {{ paper.title }}</b></p>
           <p>{{ paper.authors }}</p>
           <p><i>{{ paper.venue }}</i></p>
            <div class="paper-buttons">
@@ -199,9 +203,10 @@ title: Home
      <!-- AIED PAPERS -->
      <div class="tab-pane" id="papers-dro">
       {% assign dro_papers = site.data.publications.papers | where: "dro", "y" %}
+      {% assign length = dro_papers | size %}
       {% for paper in dro_papers %}
         <div class="paper">
-          <p class="title"><b>{{ paper.title }}</b></p>
+          <p class="title"><b>[{{ length | minus: forloop.index0}}] {{ paper.title }}</b></p>
           <p>{{ paper.authors }}</p>
           <p><i>{{ paper.venue }}</i></p>
            <div class="paper-buttons">
@@ -239,9 +244,11 @@ title: Home
 
 
     <div class="tab-pane" id="papers-all">
+      {% assign all_papers = site.data.publications.papers %}
+      {% assign length = all_papers | size %}
       {% for paper in site.data.publications.papers %}
         <div class="paper">
-          <p class="title"><b>{{ paper.title }}</b></p>
+          <p class="title"><b>[{{ length | minus: forloop.index0}}] {{ paper.title }}</b></p>
           <p>{{ paper.authors }}</p>
           <p><i>{{ paper.venue }}</i></p>
            <div class="paper-buttons">
