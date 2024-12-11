@@ -27,7 +27,7 @@ papers:
     title: "Stability Evaluation of Large Language Models via Distributional Perturbation Analysis"
     selected: y 
     distshift: y
-    paper_pdf: ""
+    paper_pdf: "./assets/neurips-workshop.pdf"
 
   - venue: "<b>NeurIPS'24</b>: Neural Information Processing Systems 2024"
     authors: "Jiayun Wu, <b>Jiashuo Liu</b>, Peng Cui, Zhiwei Steven Wu"
