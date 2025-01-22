@@ -1,6 +1,6 @@
 talks:
 
-  - title: "Stability Evaluation via Distributional Perturbation Analysis"
+  - title: "Stability Evaluation via Distributional Perturbation Analysis."
     authors: "Speaker: <b>Jiashuo Liu</b>"
     selected: y
     venue: "INFORMS'24 Annual Meeting, Seattle, US <br> Advances in Data-Driven Distributionally Robust Optimization"

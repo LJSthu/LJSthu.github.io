@@ -6,9 +6,8 @@ title: Home
 <div class="docs-section" id="bio">
   <h4>Bio</h4>
   Hi, Im Jiashuo! I'm a final-year Ph.D. candidate in the Department of Computer Science & Technology at Tsinghua University, advised by <a href="http://pengcui.thumedialab.com"><u>Prof. Peng Cui</u></a> and <a href="https://www.sem.tsinghua.edu.cn/en/info/1219/6985.htm"><u>Prof. Bo Li</u></a>. 
-  I am cureently visiting <a href="https://www.vanderschaar-lab.com"><u>Prof. Mihaela van der Schaar</u></a>'s group at Cambridge Centre for AI in Medicine.
-  I was a visiting student researcher at <a href="https://web.stanford.edu/~jblanche/"><u>Prof. Jose H. Blanchet</u></a>'s group in the Department of Management Science & Engineering at Stanford University.
-  I work remotely with <a href="https://hsnamkoong.github.io"><u>Prof. Hongseok Namkoong</u></a> and <a href="https://www.columbia.edu/~khl2114/"><u>Prof. Henry Lam</u></a> at Columbia University.
+  I was a visiting student researcher at  <a href="https://www.vanderschaar-lab.com"><u>Prof. Mihaela van der Schaar</u></a>'s group at Cambridge Centre for AI in Medicine, and <a href="https://web.stanford.edu/~jblanche/"><u>Prof. Jose H. Blanchet</u></a>'s group at Stanford MS&E.
+  I also work remotely with <a href="https://hsnamkoong.github.io"><u>Prof. Hongseok Namkoong</u></a> and <a href="https://www.columbia.edu/~khl2114/"><u>Prof. Henry Lam</u></a> at Columbia University.
     
  <br><br>I develop robust, reliable, and fair machine learning models, with a particular focus on addressing <u><b>distribution shifts</b></u>, and bridge the fields of <u><b>machine learning</b></u>, <u><b>operations research</b></u>, <b><u>causal inference</b></u>, and <u><b>healthcare</b></u>. My research centers on advancing model adaptability and accuracy in response to real-world variability, with key interests in:
  <br> <b>(1) Inductive ways to understand distribution shifts</b>: Identify safe & risk regions (<a href="https://arxiv.org/abs/2307.05284">NeurIPS'23</a>), measure LLM stability under perturbations (<a href="">NeurIPS'24</a> Red Teaming GenAI), measure model & feature stability under shifts (<a href="https://arxiv.org/abs/2405.03198.pdf">ICML'24</a>).
@@ -21,7 +20,7 @@ title: Home
 
 <!-- ========== NEWS ========== -->
 <div class="docs-section" id="tutorials">
-  <h4>Tutorials/Talks</h4>
+  <h4>Invited Talks</h4>
 
   {% assign selected_papers = site.data.news.talks | where: "selected", "y" %}
   {% assign length = selected_papers | size %}
@@ -350,7 +349,7 @@ title: Home
 <div class="docs-section" id="resume">
   <h4>Vitæ</h4>
 
-  <p>Full Resume in <a href={{ "/assets/jiashuo_cv.pdf" | prepend: site.baseurl }} target="_blank">PDF</a>.</p>
+  <p>Full Resume in <a href={{ "/assets/jiashuo_cv_latest.pdf" | prepend: site.baseurl }} target="_blank">PDF</a>.</p>
 
   <ul class="timeline">
     {% for exp in site.data.experience.experiences %}
