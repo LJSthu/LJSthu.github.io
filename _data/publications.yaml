@@ -1,4 +1,30 @@
 papers:
+  - venue: "<b>ICLR'25</b>: International Conference on Learning Representations 2025"
+    authors: "<b>Jiashuo Liu</b>, Nabeel Seedat, Peng Cui, Mihaela van der Schaar"
+    title: "Going Beyond Static: Understanding Shifts with Time-Series Attribution"
+    selected: y
+    distshift: y
+    heterogeneity: y
+    paper_pdf: https://openreview.net/pdf?id=XQlccqJpCC
+
+  - venue: "<b>ICLR'25 Workshop</b> on Navigating and Addressing Data Problems for Foundation Models"
+    authors: "Nabeel Seedat*, <b>Jiashuo Liu*</b>, Mihaela van der Schaar"
+    title: "Position: What's the next frontier for Data-centric AI? Data Savvy Agents!"
+    selected: y
+    distshift: n
+    heterogeneity: y
+    paper_pdf: ""
+    
+  - venue: "<b>ICLR'25 Workshop</b> on Navigating and Addressing Data Problems for Foundation Models"
+    authors: "Evgeny Saveliev*, <b>Jiashuo Liu*</b>, Nabeel Seedat*, Anders Boyd, Mihaela van der Schaar"
+    title: "Towards Human-Guided, Data-Centric LLM Co-Pilots"
+    selected: y
+    distshift: n
+    heterogeneity: y
+    paper_pdf: ""
+
+
+    
   - venue: "Survey Paper"
     authors: "<b>Jiashuo Liu*</b>, Zheyan Shen*, Yue He, Xingxuan Zhang, Renzhe Xu, Han Yu, Peng Cui"
     title: "Towards Out-of-Distribution Generalization: A Survey"
