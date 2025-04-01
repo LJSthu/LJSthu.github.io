@@ -15,7 +15,7 @@ papers:
     heterogeneity: y
     paper_pdf: ""
     
-  - venue: "<b>ICLR'25 Workshop</b> on Navigating and Addressing Data Problems for Foundation Models"
+  - venue: "<b>ICLR'25 Workshop</b> on Navigating and Addressing Data Problems for Foundation Models <br> Under review at DMLR"
     authors: "Evgeny Saveliev*, <b>Jiashuo Liu*</b>, Nabeel Seedat*, Anders Boyd, Mihaela van der Schaar"
     title: "Towards Human-Guided, Data-Centric LLM Co-Pilots"
     selected: y
@@ -23,8 +23,6 @@ papers:
     heterogeneity: y
     paper_pdf: ""
 
-
-    
   - venue: "Survey Paper"
     authors: "<b>Jiashuo Liu*</b>, Zheyan Shen*, Yue He, Xingxuan Zhang, Renzhe Xu, Han Yu, Peng Cui"
     title: "Towards Out-of-Distribution Generalization: A Survey"
@@ -37,7 +35,15 @@ papers:
     title: "AdaptSel: Adaptive Selection of Biased and Debiased Recommendation Models for Varying Test Environments"
     selected: n 
     distshift: y 
-    paper_pdf: ""
+    paper_pdf: https://dl.acm.org/doi/pdf/10.1145/3706637
+  
+  - venue: "<b>NeurIPS'24</b>: Neural Information Processing Systems 2024"
+    authors: "Jiayun Wu, <b>Jiashuo Liu</b>, Peng Cui, Zhiwei Steven Wu"
+    title: "Bridging Multicalibration and Out-of-distribution Generalization Beyond Covariate Shift"
+    distshift: y 
+    selected: y 
+    paper_pdf: https://arxiv.org/abs/2406.00661
+    code: https://github.com/IC-hub/MC-Pseudolabel
   
   - venue: "<b>NeurIPS'24 Workshop</b> on Table Representation Learning"
     authors: "Yibo Zeng*, <b>Jiashuo Liu*</b>, Henry Lam, Hongseok Namkoong"
@@ -55,13 +61,6 @@ papers:
     distshift: y
     paper_pdf: "./assets/neurips-workshop.pdf"
 
-  - venue: "<b>NeurIPS'24</b>: Neural Information Processing Systems 2024"
-    authors: "Jiayun Wu, <b>Jiashuo Liu</b>, Peng Cui, Zhiwei Steven Wu"
-    title: "Bridging Multicalibration and Out-of-distribution Generalization Beyond Covariate Shift"
-    distshift: y 
-    selected: y 
-    paper_pdf: https://arxiv.org/abs/2406.00661
-    code: https://github.com/IC-hub/MC-Pseudolabel
   
   - venue: "Preprint"
     authors: "Weihuang Zheng*, <b>Jiashuo Liu*</b>, Jiaxing Li, Jiayun Wu, Peng Cui, Youyong Kong"
@@ -70,7 +69,7 @@ papers:
     paper_pdf: https://arxiv.org/abs/2406.01066
     dro: y
   
-  - venue: "<b>INFORMS'24 Workshop</b> on Data Science, 2024 (full paper presentation) <br> <b>NeurIPS'23</b>: Advances in Neural Information Processing Systems, Datasets and Benchmarks Track, 2023 <br> <b>Selected as NeurIPS Favorite Papers/Presentations (9/3500+) by Two Sigma</b> <br> Under review at Management Science"
+  - venue: "<b>INFORMS'24 Workshop</b> on Data Science, 2024 (full paper presentation) <br> <b>NeurIPS'23</b>: Advances in Neural Information Processing Systems, Datasets and Benchmarks Track, 2023 <br> <b>Selected as NeurIPS Favorite Papers/Presentations (9/3500+) by Two Sigma</b> <br> Major Revision at Management Science"
     distshift: y
     heterogeneity: y
     authors: "<b>Jiashuo Liu*</b>, Tianyu Wang*, Peng Cui, Hongseok Namkoong"
