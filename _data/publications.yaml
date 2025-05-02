@@ -1,4 +1,12 @@
 papers:
+  - venue: "<b>ICML'25</b>: International Conference on Machine Learning 2025"
+    authors: "Weihuang Zheng*, <b>Jiashuo Liu*</b>, Jiaxing Li, Jiayun Wu, Peng Cui, Youyong Kong"
+    title: "Topology-Aware Dynamic Reweighting for Distribution Shifts on Graph"
+    selected: y 
+    paper_pdf: https://arxiv.org/abs/2406.01066
+    dro: y
+    distshift: y
+
   - venue: "<b>ICLR'25</b>: International Conference on Learning Representations 2025"
     authors: "<b>Jiashuo Liu</b>, Nabeel Seedat, Peng Cui, Mihaela van der Schaar"
     title: "Going Beyond Static: Understanding Shifts with Time-Series Attribution"
@@ -60,14 +68,6 @@ papers:
     selected: y 
     distshift: y
     paper_pdf: "./assets/neurips-workshop.pdf"
-
-  
-  - venue: "Preprint"
-    authors: "Weihuang Zheng*, <b>Jiashuo Liu*</b>, Jiaxing Li, Jiayun Wu, Peng Cui, Youyong Kong"
-    title: "Topology-Aware Dynamic Reweighting for Distribution Shifts on Graph"
-    selected: n 
-    paper_pdf: https://arxiv.org/abs/2406.01066
-    dro: y
   
   - venue: "<b>INFORMS'24 Workshop</b> on Data Science, 2024 (full paper presentation) <br> <b>NeurIPS'23</b>: Advances in Neural Information Processing Systems, Datasets and Benchmarks Track, 2023 <br> <b>Selected as NeurIPS Favorite Papers/Presentations (9/3500+) by Two Sigma</b> <br> Major Revision at Management Science"
     distshift: y
