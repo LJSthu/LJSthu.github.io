@@ -18,15 +18,24 @@ title: Home
   I was a visiting student researcher at  <a href="https://www.vanderschaar-lab.com"><u>Prof. Mihaela van der Schaar</u></a>'s group at Cambridge Centre for AI in Medicine, and <a href="https://web.stanford.edu/~jblanche/"><u>Prof. Jose H. Blanchet</u></a>'s group at Stanford MS&E.
   I also work remotely with <a href="https://hsnamkoong.github.io"><u>Prof. Hongseok Namkoong</u></a> and <a href="https://www.columbia.edu/~khl2114/"><u>Prof. Henry Lam</u></a> at Columbia University.
     
- 
+ <br><br><br>
+<ul>
+  <span style="color: red;font-weight: bold;">KDD 2025 Tutorial on Data Heteorgeneity</span><br>
+  I'll give a tutorial on "Data Heterogeneity Modeling for Trustworthy Machine Learning" at KDD 2025, which will discuss how a better understanding of data heterogeneity improves generalization for both small-scale and large-scale models. See you in Toronto! <br><br>
+
+
+  <span style="color: red;font-weight: bold;">ATRASS Seminar on Distribution Shifts</span> <br>
+  I'll give a talk on "Inductive Modeling of Distribution Shifts Enhances Trustworthy AI" at <a href="https://rai.ac.uk/seminars/atrass5-no-date-yet/">ATRASS#5</a>, which will introduce our recent efforts on analyzing the pattern of distribution shifts. 
+</ul>
+
 </div>
 
 
-<!-- ========== NEWS ========== -->
+<!-- ========== NEWS ==========
 <div class="docs-section" id="tutorials">
   <h4>Invited Talks</h4>
 
-  {% assign selected_papers = site.data.news.talks | where: "selected", "y" %}
+  {% assign selected_papers = site.data.talks.talks | where: "selected", "y" %}
   {% assign length = selected_papers | size %}
       {% for paper in selected_papers %}
         <div class="paper">
@@ -48,7 +57,7 @@ title: Home
         </div>
       {% endfor %}
 
-</div>
+</div> -->
 
 
 <!-- ========== PUBLICATIONS ========== -->
@@ -291,6 +300,33 @@ title: Home
 </div>
 
 
+<!-- ========== Talks ========== -->
+<div class="docs-section" id="tutorials">
+  <h4>Invited Talks</h4>
+
+  {% assign selected_papers = site.data.talks.talks | where: "selected", "y" %}
+  {% assign length = selected_papers | size %}
+      {% for paper in selected_papers %}
+        <div class="paper">
+          <p class="title"><b>[{{ length | minus: forloop.index0}}] {{ paper.title }}</b></p>
+          <p>{{ paper.authors }}</p>
+          <p><i>{{ paper.venue }}</i></p>
+           <div class="paper-buttons">
+            {% if paper.slides %}
+              <a class="button" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
+            {% endif %}
+            {% if paper.video %}
+              <a class="button" href="{{ paper.video }}" target="_blank">Video</a>
+            {% endif %}
+            {% if paper.media %}
+              <a class="button" href="{{ paper.media }}" target="_blank">Media</a>
+            {% endif %}
+
+          </div>
+        </div>
+      {% endfor %}
+
+</div>
 
 
 <!-- ========== Achievements ========== -->
