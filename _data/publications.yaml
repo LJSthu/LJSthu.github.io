@@ -1,4 +1,11 @@
 papers:
+  - venue: "<b>TKDD'25</b>: Transactions on Knowledge Discovery from Data"
+    authors: "Zimu Wang, <b>Jiashuo Liu</b>, Hao Zou, Xingxuan Zhang, Yue He, Dongxu Liang, Peng Cui"
+    title: "Exploring and Exploiting Data Heterogeneity in Recommendation"
+    selected: n 
+    heterogeneity: y 
+    paper_pdf: https://arxiv.org/pdf/2305.15431
+
   - venue: "<b>ICML'25</b>: International Conference on Machine Learning 2025"
     authors: "Weihuang Zheng*, <b>Jiashuo Liu*</b>, Jiaxing Li, Jiayun Wu, Peng Cui, Youyong Kong"
     title: "Topology-Aware Dynamic Reweighting for Distribution Shifts on Graph"
