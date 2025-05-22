@@ -1,5 +1,11 @@
 talks:
-
+  - title: "An Inductive Modeling of Distribution Shifts Enhances Trustworthy AI"
+    authors: "Speaker: <b>Jiashuo Liu</b>"
+    selected: y
+    venue: "AI Trustworthiness and Risk Assessment Scientific Seminars (ATRASS#5)"
+    slides: "./assets/atrass.pdf"
+    media: https://rai.ac.uk/seminars/atrass5-no-date-yet/
+  
   - title: "Stability Evaluation via Distributional Perturbation Analysis."
     authors: "Speaker: <b>Jiashuo Liu</b>"
     selected: y
