@@ -1,4 +1,19 @@
 papers:
+  - venue: "<b>KDD'25</b>: SIGKDD Conference on Knowledge Discovery and Data Mining 2025"
+    authors: "<b>Jiashuo Liu</b>, Peng Cui"
+    title: "Data Heterogeneity Modeling for Trustworthy Machine Learning"
+    selected: y
+    heterogeneity: y
+    paper_pdf: ""
+  
+  - venue: "Under review"
+    authors: "<b>Jiashuo Liu*</b>, Tianyu Wang, Henry Lam, Hongseok Namkoong, Jose Blanchet"
+    title: "DRO: A Python Library for Distributionally Robust Optimization in Machine Learning"
+    selected: y
+    dro: y
+    paper_pdf: "https://arxiv.org/pdf/2505.23565"
+    code: "https://github.com/namkoong-lab/dro"
+
   - venue: "<b>TKDD'25</b>: Transactions on Knowledge Discovery from Data"
     authors: "Zimu Wang, <b>Jiashuo Liu</b>, Hao Zou, Xingxuan Zhang, Yue He, Dongxu Liang, Peng Cui"
     title: "Exploring and Exploiting Data Heterogeneity in Recommendation"
@@ -28,7 +43,7 @@ papers:
     selected: y
     distshift: n
     heterogeneity: y
-    paper_pdf: ""
+    paper_pdf: "https://openreview.net/pdf?id=2GEipEDZB0"
     
   - venue: "<b>ICLR'25 Workshop</b> on Navigating and Addressing Data Problems for Foundation Models <br> Under review at DMLR"
     authors: "Evgeny Saveliev*, <b>Jiashuo Liu*</b>, Nabeel Seedat*, Anders Boyd, Mihaela van der Schaar"
@@ -36,7 +51,7 @@ papers:
     selected: y
     distshift: n
     heterogeneity: y
-    paper_pdf: ""
+    paper_pdf: "https://arxiv.org/pdf/2501.10321"
 
   - venue: "Survey Paper"
     authors: "<b>Jiashuo Liu*</b>, Zheyan Shen*, Yue He, Xingxuan Zhang, Renzhe Xu, Han Yu, Peng Cui"
