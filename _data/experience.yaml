@@ -1,4 +1,9 @@
 experiences:
+- place: "Tsinghua University"
+  time: "2020 - 2025"
+  title: "Ph.D. Student"
+  subtitle: "Computer Science <br/> with Prof. Peng Cui and Bo Li"
+  category: "school"
 
 - place: "Cambridge University"
   time: "June 2024 - Nov 2024"
@@ -17,12 +22,6 @@ experiences:
   title: ""
   subtitle: "Decision, Risk, and Operations division  <br/>Remotely work with Prof. Hongseok Namkoong"
   category: "work"
-
-- place: "Tsinghua University"
-  time: "2020 - 2025"
-  title: "Ph.D. Student"
-  subtitle: "Computer Science <br/> with Prof. Peng Cui and Bo Li"
-  category: "school"
 
 - place: "Sogou"
   time: "July-Sep 2017"
