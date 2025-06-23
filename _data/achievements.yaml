@@ -1,4 +1,9 @@
 awards:
+  - title: "Outstanding Doctoral Graduate of Tsinghua University"
+    subtitle: "2025"
+    rate:  (the highest honor for graduates, Top-4 at Tsinghua CS)
+    awards: y
+
   - title: "INFORMS Data Science Student Scholarship"
     subtitle: "2024"
     awards: y
