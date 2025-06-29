@@ -1,4 +1,10 @@
 experiences:
+- place: "ByteDance"
+  time: "July 2025-"
+  title: "Research Scientist"
+  subtitle: "Seed Team"
+  category: "work"
+
 - place: "Tsinghua University"
   time: "2020 - 2025"
   title: "Ph.D. Student"
