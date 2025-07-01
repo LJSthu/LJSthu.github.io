@@ -1,4 +1,10 @@
 talks:
+  - title: "Generalizable Machine Learning via Inductive Modeling of Distribution Shifts"
+    authors: "Speaker: <b>Jiashuo Liu</b>"
+    selected: y
+    venue: "Jump Trading, Shanghai office"
+    slides: "./assets/jump.pdf"
+    
   - title: "An Inductive Modeling of Distribution Shifts Enhances Trustworthy AI"
     authors: "Speaker: <b>Jiashuo Liu</b>"
     selected: y
