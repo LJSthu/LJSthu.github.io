@@ -2,6 +2,12 @@ talks:
   - title: "Generalizable Machine Learning via Inductive Modeling of Distribution Shifts"
     authors: "Speaker: <b>Jiashuo Liu</b>"
     selected: y
+    venue: "Ubiquant, Beijing office"
+    slides: "./assets/ubiquant.pdf"
+  
+  - title: "Generalizable Machine Learning via Inductive Modeling of Distribution Shifts"
+    authors: "Speaker: <b>Jiashuo Liu</b>"
+    selected: y
     venue: "Jump Trading, Shanghai office"
     slides: "./assets/jump.pdf"
     
