@@ -1,8 +1,16 @@
 papers:
+  - venue: "Technical Report"
+    authors: "<b>Project Lead</b>. ByteDance Seed, Fudan University, Stanford University, Princeton University"
+    title: "FutureX: An Advanced Live Benchmark for LLM Agents in Future Prediction"
+    selected: y
+    heterogeneity: n
+    paper_pdf: "https://arxiv.org/abs/2508.11987"
+  
+  
   - venue: "<b>KDD'25</b>: SIGKDD Conference on Knowledge Discovery and Data Mining 2025"
     authors: "<b>Jiashuo Liu</b>, Peng Cui"
     title: "Data Heterogeneity Modeling for Trustworthy Machine Learning"
-    selected: y
+    selected: n
     heterogeneity: y
     paper_pdf: ""
   
@@ -24,7 +32,7 @@ papers:
   - venue: "<b>ICML'25</b>: International Conference on Machine Learning 2025"
     authors: "Weihuang Zheng*, <b>Jiashuo Liu*</b>, Jiaxing Li, Jiayun Wu, Peng Cui, Youyong Kong"
     title: "Topology-Aware Dynamic Reweighting for Distribution Shifts on Graph"
-    selected: y 
+    selected: n 
     paper_pdf: https://arxiv.org/abs/2406.01066
     dro: y
     distshift: y
@@ -32,7 +40,7 @@ papers:
   - venue: "<b>ICLR'25</b>: International Conference on Learning Representations 2025"
     authors: "<b>Jiashuo Liu</b>, Nabeel Seedat, Peng Cui, Mihaela van der Schaar"
     title: "Going Beyond Static: Understanding Shifts with Time-Series Attribution"
-    selected: y
+    selected: n
     distshift: y
     heterogeneity: y
     paper_pdf: https://openreview.net/pdf?id=XQlccqJpCC
@@ -40,7 +48,7 @@ papers:
   - venue: "<b>ICLR'25 Workshop</b> on Navigating and Addressing Data Problems for Foundation Models"
     authors: "Nabeel Seedat*, <b>Jiashuo Liu*</b>, Mihaela van der Schaar"
     title: "Position: What's the next frontier for Data-centric AI? Data Savvy Agents!"
-    selected: y
+    selected: n
     distshift: n
     heterogeneity: y
     paper_pdf: "https://openreview.net/pdf?id=2GEipEDZB0"
@@ -48,7 +56,7 @@ papers:
   - venue: "<b>ICLR'25 Workshop</b> on Navigating and Addressing Data Problems for Foundation Models <br> Under review at DMLR"
     authors: "Evgeny Saveliev*, <b>Jiashuo Liu*</b>, Nabeel Seedat*, Anders Boyd, Mihaela van der Schaar"
     title: "Towards Human-Guided, Data-Centric LLM Co-Pilots"
-    selected: y
+    selected: n
     distshift: n
     heterogeneity: y
     paper_pdf: "https://arxiv.org/pdf/2501.10321"
@@ -71,7 +79,7 @@ papers:
     authors: "Jiayun Wu, <b>Jiashuo Liu</b>, Peng Cui, Zhiwei Steven Wu"
     title: "Bridging Multicalibration and Out-of-distribution Generalization Beyond Covariate Shift"
     distshift: y 
-    selected: y 
+    selected: n 
     paper_pdf: https://arxiv.org/abs/2406.00661
     code: https://github.com/IC-hub/MC-Pseudolabel
   
@@ -79,7 +87,7 @@ papers:
     authors: "Yibo Zeng*, <b>Jiashuo Liu*</b>, Henry Lam, Hongseok Namkoong"
     title: "LLM Embeddings Improve Test-time Adaptation to Tabular Y|X-Shifts"
     distshift: y 
-    selected: y 
+    selected: n 
     paper_pdf: "https://www.arxiv.org/pdf/2410.07395"
     media: https://www.marktechpost.com/2024/10/30/this-ai-paper-explores-how-large-language-model-embeddings-enhance-adaptability-in-predictive-modeling-for-shifting-tabular-data-environments/
     code: https://github.com/namkoong-lab/LLM-Tabular-Shifts
@@ -106,14 +114,14 @@ papers:
     distshift: y
     authors: "(α-β order) Jose Blanchet*, Peng Cui*, Jiajin Li*, <b>Jiashuo Liu*</b>"
     title: "Stability Evaluation via Distributional Perturbation Analysis"
-    selected: y
+    selected: n
     paper_pdf: https://arxiv.org/abs/2405.03198.pdf
 
   - venue: "<b>ICML'24</b>: International Conference on Machine Learning 2024 <br> Short version at NeurIPS'23, Workshop on Distribution Shifts"
     dro: y
     authors: "<b>Jiashuo Liu</b>, Jiayun Wu, Tianyu Wang, Hao Zou, Bo Li, Peng Cui"
     title: "Geometry-Calibrated DRO: Combating Over-Pessimism with Free Energy Implications"
-    selected: y
+    selected: n
     paper_pdf: https://arxiv.org/pdf/2311.05054.pdf
 
   - venue: "<b>AISTATS'24</b>: International Conference on Artificial Intelligence and Statistics 2024"
@@ -121,7 +129,7 @@ papers:
     dro: y
     authors: "<b>Jiashuo Liu</b>, Jiayun Wu, Jie Peng, Xiaoyu Wu, Yang Zheng, Bo Li, Peng Cui"
     title: "Enhancing Distributional Stability among Sub-Populations"
-    selected: y
+    selected: n
     paper_pdf: https://arxiv.org/pdf/2206.02990
 
 
@@ -149,7 +157,7 @@ papers:
     distshift: y
     authors: "Yingtian Zou, Kenji Kawaguchi, Yingnan Liu, <b>Jiashuo Liu</b>, Mong-Li Lee, Wynne Hsu"
     title: "Towards Robust Out-of-Distribution Generalization Bounds via Sharpness"
-    selected: y
+    selected: n
     paper_pdf: https://openreview.net/pdf?id=tPEwSYPtAC
 
   - venue: "<b>WWW'23</b>: The ACM Web Conference 2023"
@@ -162,14 +170,14 @@ papers:
     heterogeneity: y
     authors: "<b>Jiashuo Liu*</b>, Jiayun Wu*, Renjie Pi, Renzhe Xu, Xingxuan Zhang, Bo Li, Peng Cui"
     title: "Measure the Predictive Heterogeneity"
-    selected: y
+    selected: n
     paper_pdf: https://openreview.net/pdf?id=g2oB_k-18b
 
   - venue: "<b>TKDE'22</b>: IEEE Transactions on Knowledge and Data Engineering 2022"
     dro: y
     authors: "<b>Jiashuo Liu</b>, Zheyan Shen, Peng Cui, Linjun Zhou, Kun Kuang, Bo Li"
     title: "Distributionally Robust Learning with Stable Adversarial Training"
-    selected: y
+    selected: n
     paper_pdf: https://ieeexplore.ieee.org/document/9961896
     code: https://github.com/LJSthu/StableAL
     
@@ -177,7 +185,7 @@ papers:
     dro: y
     authors: "<b>Jiashuo Liu*</b>, Jiayun Wu*, Bo Li, Peng Cui"
     title: "Distributionally Robust Optimization with Data Geometry"
-    selected: y
+    selected: n
     paper_pdf: https://proceedings.neurips.cc/paper_files/paper/2022/file/da535999561b932f56efdd559498282e-Paper-Conference.pdf
 
   - venue: "<b>JINST'22</b>: Journal of Instrumentation 2022"
@@ -195,7 +203,7 @@ papers:
     dro: y
     authors: "<b>Jiashuo Liu*</b>, Zheyuan Hu*, Peng Cui, Bo Li, Zheyan Shen"
     title: "Kernelized Heterogeneous Risk Minimization"
-    selected: y
+    selected: n
     paper_pdf: https://arxiv.org/pdf/2110.12425
     code: https://github.com/LJSthu/Kernelized-HRM
 
@@ -203,7 +211,7 @@ papers:
     dro: y
     authors: "<b>Jiashuo Liu</b>, Zheyuan Hu, Peng Cui, Bo Li, Zheyan Shen"
     title: "Heterogeneous Risk Minimization"
-    selected: y
+    selected: n
     paper_pdf: http://proceedings.mlr.press/v139/liu21h/liu21h.pdf
     code: https://github.com/LJSthu/HRM
     
@@ -211,7 +219,7 @@ papers:
     dro: y
     authors: "<b>Jiashuo Liu</b>, Zheyan Shen, Peng Cui, Linjun Zhou, Kun Kuang, Bo Li, Yishi Lin"
     title: "Stable Adversarial Learning under Distributional Shifts"
-    selected: y
+    selected: n
     paper_pdf: https://ojs.aaai.org/index.php/AAAI/article/view/17050
     code: https://github.com/LJSthu/StableAL
 
