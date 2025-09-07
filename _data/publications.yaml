@@ -5,6 +5,9 @@ papers:
     selected: y
     heterogeneity: n
     paper_pdf: "https://arxiv.org/abs/2508.11987"
+    website: "https://futurex-ai.github.io/"
+    data: "https://huggingface.co/datasets/futurex-ai/Futurex-Online"
+    
   
   
   - venue: "<b>KDD'25</b>: SIGKDD Conference on Knowledge Discovery and Data Mining 2025"

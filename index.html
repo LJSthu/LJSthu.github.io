@@ -6,21 +6,23 @@ title: Home
 <div class="docs-section" id="bio">
   <h4>Bio</h4>
   Hi, Im Jiashuo! 
-  I'm a Research Scientist at ByteDance Seed Team, working with <a href="https://scholar.google.com/citations?user=OdE3MsQAAAAJ&hl=zh-CN">Wenhao Huang</a>.
-  <br><br>  I focus on (1) designing efficient and reliable evaluation algorithms for LLMs, (2) practical and fancy benchmarks for LLMs, and (3) data-centric AI.
-  I lead the <a href="https://futurex-ai.github.io/">FutureX</a> project, a live benchmark for LLM agents on real-world future prediction tasks. 
- I keep a close connection to academia, working with <a href="https://web.stanford.edu/~jblanche/">Jose Blanchet</a>, 
+  I'm a Research Scientist at ByteDance Seed Team, working with <a href="https://scholar.google.com/citations?user=OdE3MsQAAAAJ&hl=zh-CN">Wenhao Huang</a>.<br>
+  I keep a close connection to academia, working with <a href="https://web.stanford.edu/~jblanche/">Jose Blanchet</a>, 
  <a href="https://pengcui.thumedialab.com/">Peng Cui</a>, <a href="https://www.sem.tsinghua.edu.cn/en/info/1219/6985.htm">Bo Li</a>, 
  <a href="https://hsnamkoong.github.io/">Hongseok Namkoong</a>, <a href="https://www.vanderschaar-lab.com/prof-mihaela-van-der-schaar/">Mihaela van der Schaar</a>, and <a href="https://ece.princeton.edu/people/mengdi-wang">Mengdi Wang</a>. 
+ I got my Ph.D. from Tsinghua CS, and visited Stanford MS&E, Cambridge CCAIM, and Columbia DRO as a visiting student researcher. 
+ 
+  <br><br>  <b>Current:</b> I focus on (1) designing efficient and reliable evaluation algorithms for LLMs, (2) practical and fancy benchmarks for LLMs, and (3) data-centric AI.
+  I lead the <a href="https://futurex-ai.github.io/"><b>FutureX</b></a> project, a live benchmark for LLM agents on real-world future prediction tasks, which has gained over <b>45M</b> views on X (twitter)! 
  
  
  <br><br>
- I got my Ph.D. from Tsinghua CS, and visited Stanford MS&E, Cambridge CCAIM, and Columbia DRO during my Ph.D. time. 
- During my Ph.D. time, I develop robust, reliable, and fair machine learning models, with a particular focus on addressing <u><b>distribution shifts</b></u>, and bridge the fields of <u><b>machine learning</b></u>, <u><b>operations research</b></u>, <b><u>causal inference</b></u>, and <u><b>healthcare</b></u>. 
- For an overview of my research, please refer to our <a href="https://drive.google.com/file/d/1QEsHWNK42-USisUSkld_f7UXs9z7_M1E/view?usp=sharing">NeurIPS'23 Tutorial</a>, <a href="./assets/CoLLAs2024.pdf">SDM'24 Tutorial</a>, 
- <a href="./assets/CoLLAs2024.pdf">CoLLAs'24 Tutorial</a>, and <a href="./assets/KDD2025 Tutorial.pdf">KDD'25 Tutorial</a>.
-  
-<br><br>  Current interns: <a href="https://www.zerui-cheng.com/">Zerui Cheng</a> (Princeton), <a href="https://scholar.google.com/citations?user=sjkLXR4AAAAJ&hl=en">Jiayun Wu</a> (CMU)
+ <b>Past:</b> During my Ph.D. time, I develop robust, reliable, and fair machine learning models, with a particular focus on addressing distribution shifts and data-centric AI, and bridge the fields of machine learning, operations research, and healthcare. 
+ For an overview of my <i>past</i> research, please refer to our <a href="https://drive.google.com/file/d/1QEsHWNK42-USisUSkld_f7UXs9z7_M1E/view?usp=sharing">NeurIPS'23 Tutorial</a>, <a href="./assets/CoLLAs2024.pdf">SDM'24 Tutorial</a>, 
+ <a href="./assets/CoLLAs2024.pdf">CoLLAs'24 Tutorial</a>, and <a href="./assets/KDD2025 Tutorial.pdf">KDD'25 Tutorial</a>. 
+
+<br><br>  <b>Intern:</b> <a href="https://www.zerui-cheng.com/">Zerui Cheng</a> (Princeton), <a href="https://scholar.google.com/citations?user=sjkLXR4AAAAJ&hl=en">Jiayun Wu</a> (CMU)
+<b>Collaborator:</b> Nabeel Seedat
 <br> I'm actively looking for interns intersted in data-centric AI and LLM evaluation. Feel free to email me!
 </div>
 
@@ -103,6 +105,11 @@ title: Home
               <a class="button" href="{{ paper.data }}" target="_blank">Data</a>
             {% endif %}
             
+            {% if paper.website %}
+              <a class="button" href="{{ paper.data }}" target="_blank">Website</a>
+            {% endif %}
+            
+
             {% if paper.package %}
               <a class="button" href="{{ paper.package }}" target="_blank">Python Package</a>
             {% endif %}
