@@ -6,16 +6,71 @@ title: Home
 <div class="docs-section" id="bio">
   <h4>Bio</h4>
   Hi, Im Jiashuo! 
-  I'm a Research Scientist at ByteDance Seed Team, working with <a href="https://scholar.google.com/citations?user=OdE3MsQAAAAJ&hl=zh-CN">Wenhao Huang</a>.<br>
+  I'm a Research Scientist at ByteDance Seed, as a member of <b>TopSeed</b> Program, working with <a href="https://scholar.google.com/citations?user=OdE3MsQAAAAJ&hl=zh-CN">Wenhao Huang</a>.<br>
   I keep a close connection to academia, working with <a href="https://web.stanford.edu/~jblanche/">Jose Blanchet</a>, 
  <a href="https://pengcui.thumedialab.com/">Peng Cui</a>, <a href="https://www.sem.tsinghua.edu.cn/en/info/1219/6985.htm">Bo Li</a>, 
  <a href="https://hsnamkoong.github.io/">Hongseok Namkoong</a>, <a href="https://www.vanderschaar-lab.com/prof-mihaela-van-der-schaar/">Mihaela van der Schaar</a>, and <a href="https://ece.princeton.edu/people/mengdi-wang">Mengdi Wang</a>. 
  I got my Ph.D. from Tsinghua CS, and visited Stanford MS&E, Cambridge CCAIM, and Columbia DRO as a visiting student researcher. 
+
+ <br><br>
+  <b>Current:</b> I focus on LLM Evaluation & Pretraining, including:
+  <ul class="compact-list">
+  <li>Efficient and reliable evaluation algorithms for LLMs</li>
+  <li>Super large-scale data-centric AI</li>    
+  <li>Practical and fancy benchmarks for LLMs</li>
+</ul>
+I also lead the <a href="https://futurex-ai.github.io/"><b>FutureX</b></a> project, a live benchmark for LLM agents on real-world future prediction tasks, which has gained over <b>50 million</b> views on X (twitter)!
+
+<style>
+  /* 仅作用于这个列表，不影响全站 */
+  .compact-list {
+    list-style: none;           /* 去掉默认圆点 */
+    padding-left: 0;
+    margin: .3rem 0;            /* 整体上下间距很小 */
+  }
+  .compact-list {
+    --inset: .25rem; /* 调大/调小即可微调缩进 */
+  }
+  .compact-list li {
+    padding-left: calc(1rem + var(--inset));
+  }
+  .compact-list li::before {
+    left: var(--inset);
+  }
+  .compact-list li {
+    position: relative;
+    margin: .18rem 0;           /* 项与项之间更紧凑 */
+    padding-left: 1rem;         /* 给自定义子弹留位置 */
+    line-height: 1.35;          /* 紧凑行高 */
+  }
+  .compact-list li::before {
+    content: "▸";               /* 小箭头子弹，更精致 */
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: translateY(0.1rem);
+    opacity: .6;
+  }
+  .compact-list a {
+    text-decoration: none;
+    border-bottom: 1px dashed currentColor; /* 轻微装饰，下划线更柔和 */
+  }
+  .compact-list a:hover {
+    border-bottom-style: solid;
+  }
+  .compact-list {
+    --inset: .85rem; /* 调大/调小即可微调缩进 */
+  }
+  .compact-list li {
+    padding-left: calc(1rem + var(--inset));
+  }
+  .compact-list li::before {
+    left: var(--inset);
+  }
+</style>
+
  
-  <br><br>  <b>Current:</b> I focus on (1) designing efficient and reliable evaluation algorithms for LLMs, (2) practical and fancy benchmarks for LLMs, and (3) data-centric AI.
-  I lead the <a href="https://futurex-ai.github.io/"><b>FutureX</b></a> project, a live benchmark for LLM agents on real-world future prediction tasks, which has gained over <b>45 million</b> views on X (twitter)! 
- 
- 
+  
  <br><br>
  <b>Past:</b> During my Ph.D. time, I develop robust, reliable, and fair machine learning models, with a particular focus on addressing distribution shifts and data-centric AI, and bridge the fields of machine learning, operations research, and healthcare. 
  For an overview of my <i>past</i> research, please refer to our <a href="https://drive.google.com/file/d/1QEsHWNK42-USisUSkld_f7UXs9z7_M1E/view?usp=sharing">NeurIPS'23 Tutorial</a>, <a href="./assets/CoLLAs2024.pdf">SDM'24 Tutorial</a>, 
