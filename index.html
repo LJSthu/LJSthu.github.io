@@ -11,15 +11,20 @@ title: Home
  <a href="https://pengcui.thumedialab.com/">Peng Cui</a>, <a href="https://www.sem.tsinghua.edu.cn/en/info/1219/6985.htm">Bo Li</a>, 
  <a href="https://hsnamkoong.github.io/">Hongseok Namkoong</a>, <a href="https://www.vanderschaar-lab.com/prof-mihaela-van-der-schaar/">Mihaela van der Schaar</a>, and <a href="https://ece.princeton.edu/people/mengdi-wang">Mengdi Wang</a>. 
  I got my Ph.D. from Tsinghua CS, and visited Stanford MS&E, Cambridge CCAIM, and Columbia DRO as a visiting student researcher. 
+ During my Ph.D. time, I developed robust, reliable, and fair machine learning models, with a particular focus on addressing distribution shifts and data-centric AI, bridging the fields of machine learning, operations research, and healthcare. 
+ For an overview of my <i>past</i> research, please refer to our <a href="https://drive.google.com/file/d/1QEsHWNK42-USisUSkld_f7UXs9z7_M1E/view?usp=sharing">NeurIPS'23 Tutorial</a>, <a href="./assets/CoLLAs2024.pdf">SDM'24 Tutorial</a>, 
+ <a href="./assets/CoLLAs2024.pdf">CoLLAs'24 Tutorial</a>, and <a href="./assets/KDD2025 Tutorial.pdf">KDD'25 Tutorial</a>. 
 
  <br><br>
-  <b>Current:</b> I focus on LLM Evaluation & Pretraining, including:
+  Currently, I focus on <b>LLM Evaluation & Pretraining</b>, including:
   <ul class="compact-list">
-  <li>Efficient and reliable evaluation algorithms for LLMs</li>
-  <li>Super large-scale data-centric AI</li>    
-  <li>Practical and fancy benchmarks for LLMs</li>
+  <li>1. Efficient, reliable, and active evaluation algorithms for LLMs;</li>
+  <li>2. Super large-scale data-centric AI;</li>    
+  <li>3. Practical and fancy benchmarks for Agentic LLMs;</li>
+  <li>4. LLM hallucination and calibration.</li>
 </ul>
-I also lead the <a href="https://futurex-ai.github.io/"><b>FutureX</b></a> project, a live benchmark for LLM agents on real-world future prediction tasks, which has gained over <b>50 million</b> views on X (twitter)!
+Additionally, I also lead the <a href="https://futurex-ai.github.io/"><b>FutureX</b></a> project—described by <a href="https://x.com/elonmusk/status/1963877113049580023"><i><b>Elon Musk</b></i></a> as the <q><i><b>best measure of intelligence</b></i></q>—a live benchmark for LLM agents on real-world future prediction tasks, which has gained over <b>50 million</b> views on X (Twitter)!
+
 
 <style>
   /* 仅作用于这个列表，不影响全站 */
@@ -44,12 +49,12 @@ I also lead the <a href="https://futurex-ai.github.io/"><b>FutureX</b></a> proje
     line-height: 1.35;          /* 紧凑行高 */
   }
   .compact-list li::before {
-    content: "▸";               /* 小箭头子弹，更精致 */
+    content: "";               /* 小箭头子弹，更精致 */
     position: absolute;
-    left: 0;
+    left: 1rem;
     top: 0;
     transform: translateY(0.1rem);
-    opacity: .6;
+    opacity: 1.1;
   }
   .compact-list a {
     text-decoration: none;
@@ -59,7 +64,7 @@ I also lead the <a href="https://futurex-ai.github.io/"><b>FutureX</b></a> proje
     border-bottom-style: solid;
   }
   .compact-list {
-    --inset: .85rem; /* 调大/调小即可微调缩进 */
+    --inset: 2.85rem; /* 调大/调小即可微调缩进 */
   }
   .compact-list li {
     padding-left: calc(1rem + var(--inset));
@@ -69,12 +74,6 @@ I also lead the <a href="https://futurex-ai.github.io/"><b>FutureX</b></a> proje
   }
 </style>
 
- 
-  
- <br><br>
- <b>Past:</b> During my Ph.D. time, I develop robust, reliable, and fair machine learning models, with a particular focus on addressing distribution shifts and data-centric AI, and bridge the fields of machine learning, operations research, and healthcare. 
- For an overview of my <i>past</i> research, please refer to our <a href="https://drive.google.com/file/d/1QEsHWNK42-USisUSkld_f7UXs9z7_M1E/view?usp=sharing">NeurIPS'23 Tutorial</a>, <a href="./assets/CoLLAs2024.pdf">SDM'24 Tutorial</a>, 
- <a href="./assets/CoLLAs2024.pdf">CoLLAs'24 Tutorial</a>, and <a href="./assets/KDD2025 Tutorial.pdf">KDD'25 Tutorial</a>. 
 
 <br><br>  <b>Intern:</b> <a href="https://www.zerui-cheng.com/">Zerui Cheng</a> (Princeton), <a href="https://scholar.google.com/citations?user=sjkLXR4AAAAJ&hl=en">Jiayun Wu</a> (CMU)
 <br><b>Long-term Collaborator:</b> <a href="https://nabeelseedat.com/">Nabeel Seedat</a> (Cambridge)
@@ -120,9 +119,9 @@ I also lead the <a href="https://futurex-ai.github.io/"><b>FutureX</b></a> proje
   <ul class="tab-nav">
     <li><div class="button active" data-ref="#papers-selected">Selected</div></li>
     <li><div class="button" data-ref="#papers-all">All</div></li>
-    <li><div class="button" data-ref="#papers-mldm">DistShift</div></li>
+    <!-- <li><div class="button" data-ref="#papers-mldm">DistShift</div></li>
     <li><div class="button" data-ref="#papers-aied">Data-Centric</div></li>
-    <li><div class="button" data-ref="#papers-dro">Methodology</div></li>
+    <li><div class="button" data-ref="#papers-dro">Methodology</div></li> -->
   </ul>
 
   <div class="tab-content">
@@ -178,7 +177,7 @@ I also lead the <a href="https://futurex-ai.github.io/"><b>FutureX</b></a> proje
     </div>
 
     <!-- ML+DM PAPERS -->
-    <div class="tab-pane" id="papers-mldm">
+    <!-- <div class="tab-pane" id="papers-mldm">
       {% assign distshift_papers = site.data.publications.papers | where: "distshift", "y" %}
       {% assign length = distshift_papers | size %}
       {% for paper in distshift_papers %}
@@ -222,11 +221,11 @@ I also lead the <a href="https://futurex-ai.github.io/"><b>FutureX</b></a> proje
           </div>
         </div>
       {% endfor %}
-    </div>
+    </div> -->
 
 
     <!-- AIED PAPERS -->
-    <div class="tab-pane" id="papers-aied">
+    <!-- <div class="tab-pane" id="papers-aied">
       {% assign heterogeneity_papers = site.data.publications.papers | where: "heterogeneity", "y" %}
       {% assign length = heterogeneity_papers | size %}
       {% for paper in heterogeneity_papers %}
@@ -265,10 +264,10 @@ I also lead the <a href="https://futurex-ai.github.io/"><b>FutureX</b></a> proje
           </div>
         </div>
       {% endfor %}
-    </div>
+    </div> -->
 
      <!-- AIED PAPERS -->
-     <div class="tab-pane" id="papers-dro">
+     <!-- <div class="tab-pane" id="papers-dro">
       {% assign dro_papers = site.data.publications.papers | where: "dro", "y" %}
       {% assign length = dro_papers | size %}
       {% for paper in dro_papers %}
@@ -307,7 +306,7 @@ I also lead the <a href="https://futurex-ai.github.io/"><b>FutureX</b></a> proje
           </div>
         </div>
       {% endfor %}
-    </div>
+    </div> -->
 
 
     <div class="tab-pane" id="papers-all">

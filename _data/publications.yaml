@@ -7,9 +7,16 @@ papers:
     paper_pdf: "https://arxiv.org/abs/2508.11987"
     website: "https://futurex-ai.github.io/"
     data: "https://huggingface.co/datasets/futurex-ai/Futurex-Online"
+
+  - venue: "Technical Report"
+    authors: "<b>Core Contributor</b>. ByteDance Seed, Columbia Business School"
+    title: "FinSearchComp: Towards a Realistic, Expert-Level Evaluation of Financial Search and Reasoning"
+    selected: y 
+    heterogeneity: n 
+    paper_pdf: "https://arxiv.org/abs/2509.13160"
+    website: "https://randomtutu.github.io/FinSearchComp/"
+    data: "https://huggingface.co/datasets/ByteSeedXpert/FinSearchComp"
     
-  
-  
   - venue: "<b>KDD'25</b>: SIGKDD Conference on Knowledge Discovery and Data Mining 2025"
     authors: "<b>Jiashuo Liu</b>, Peng Cui"
     title: "Data Heterogeneity Modeling for Trustworthy Machine Learning"
@@ -17,7 +24,7 @@ papers:
     heterogeneity: y
     paper_pdf: ""
   
-  - venue: "Under review"
+  - venue: "Under review at JMLR"
     authors: "<b>Jiashuo Liu*</b>, Tianyu Wang, Henry Lam, Hongseok Namkoong, Jose Blanchet"
     title: "DRO: A Python Library for Distributionally Robust Optimization in Machine Learning"
     selected: y
@@ -98,7 +105,7 @@ papers:
   - venue: "<b>NeurIPS'24 Workshop</b> on Red Teaming GenAI"
     authors: "<b>Jiashuo Liu</b>, Jiajin Li, Peng Cui, Jose Blanchet"
     title: "Stability Evaluation of Large Language Models via Distributional Perturbation Analysis"
-    selected: y 
+    selected: n 
     distshift: y
     paper_pdf: "./assets/neurips-workshop.pdf"
   
