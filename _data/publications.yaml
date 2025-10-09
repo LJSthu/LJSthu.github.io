@@ -24,8 +24,8 @@ papers:
     heterogeneity: y
     paper_pdf: ""
   
-  - venue: "Under review at JMLR"
-    authors: "<b>Jiashuo Liu*</b>, Tianyu Wang, Henry Lam, Hongseok Namkoong, Jose Blanchet"
+  - venue: "<b>OPT'25</b>: Optimization for Machine Learning 2025 <br> Under review at JMLR"
+    authors: "<b>Jiashuo Liu*</b>, Tianyu Wang*, Henry Lam, Hongseok Namkoong, Jose Blanchet"
     title: "DRO: A Python Library for Distributionally Robust Optimization in Machine Learning"
     selected: y
     dro: y
