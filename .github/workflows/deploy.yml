@@ -28,14 +28,14 @@ jobs:
       - run: bun run build              # 确认产物目录，下面默认 dist/
 
       # SPA 路由刷新的 404 处理（可选）
-      - run: cp out/index.html dist/404.html || true
+      - run: cp out/index.html out/404.html || true
 
       # 自定义域名（可选）：把 your.domain 写进 CNAME
       # - run: echo "your.domain" > dist/CNAME
 
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: dist
+          path: out
 
   deploy:
     needs: build
