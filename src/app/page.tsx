@@ -141,7 +141,7 @@ export default function Home() {
           </a>
           ; and at the Cambridge Centre for AI in Medicine, working with Professor{' '}
           <a href="https://www.vanderschaar-lab.com/prof-mihaela-van-der-schaar/" target="_blank" rel="noopener noreferrer">
-            Mihaela van der Schaar
+            Mihaela van der Schaar. 
           </a>
           I obtained my Bachelor's degree from Tsinghua University.
         </p>
