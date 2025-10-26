@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    @apply text-gray-900 bg-white;
+  }
+
+  a {
+    @apply text-blue-800;
+  }
+
+  a:hover {
+    @apply underline;
+  }
+}
+
+/* Force bullet points to display - outside @layer to override everything */
+ul {
+  list-style-type: disc !important;
+  list-style-position: outside !important;
+  padding-left: 40px !important;
+  margin-left: 0 !important;
+}
+
+li {
+  display: list-item !important;
+}
