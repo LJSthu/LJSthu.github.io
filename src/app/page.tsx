@@ -26,7 +26,6 @@ export default function Home() {
               Jiashuo Liu（刘家硕）
             </h1>
 
-            {/* Affiliation（保持统一链接深蓝样式） */}
             <div className="mb-5 text-[15px] md:text-[16px] leading-7">
               <a href="https://seed.bytedance.com/en/" target="_blank" rel="noopener noreferrer">
                 ByteDance Seed Team
