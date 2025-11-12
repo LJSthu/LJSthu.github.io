@@ -32,6 +32,17 @@ title: Research
 
 
 
+## Recent Preprints
+
+* **RLoop: An Self-Improving Framework for Reinforcement Learning with Iterative Policy Initialization**\
+  Zhiyuan Zeng, **Jiashuo Liu**, Zhangyue Yin, Ge Zhang, Wenhao Huang, Xipeng Qiu\
+  [paper](https://arxiv.org/abs/2511.04285)
+
+* **LPFQA: A Long-Tail Professional Forum-based Benchmark for LLM Evaluation**\
+  Liya Zhu, Peizhuang Cong, Aowei Ji, Wenya Wu, Jiani Hou, Chunjie Wu, Xiang Gao, Jingkai Liu, Zhou Huan, Xuelei Sun, Yang Yang, Jianpeng Jiao, Liang Hu, Xinjie Chen, **Jiashuo Liu**, Jingzhe Ding, Tong Yang, Zaiyuan Wang, Ge Zhang, Wenhao Huang\
+  [paper](https://arxiv.org/abs/2511.06346)
+
+
 ## Publications
 
 * **Data Heterogeneity Modeling for Trustworthy Machine Learning**\
@@ -66,7 +77,7 @@ title: Research
 
 * **Towards Human-Guided, Data-Centric LLM Co-Pilots**\
   Evgeny Saveliev*, **Jiashuo Liu***, Nabeel Seedat*, Anders Boyd, Mihaela van der Schaar.\
-  *ICLR'25 Workshop on Navigating and Addressing Data Problems for Foundation Models; under review at DMLR*, 2025.\
+  *ICLR'25 Workshop on Navigating and Addressing Data Problems for Foundation Models; Accept with minor revision at DMLR*, 2025.\
    [paper](https://arxiv.org/pdf/2501.10321)
 
 * **Towards Out-of-Distribution Generalization: A Survey**\

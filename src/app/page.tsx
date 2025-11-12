@@ -179,7 +179,7 @@ export default function Home() {
               
             </li>
             <li><b>Efficient LLM Eval</b>: We design algorithms to efficiently and accurately evaluate LLM's performance.</li>
-            <li><b>Realistic LLM Eval</b>: We use realistic, professional and valuable tasks to benchmark LLM's true value in helping with daily works. Together with Prof. <a href="https://hsnamkoong.github.io/publications/">Hongseok Namkoong</a>, our <a href="https://arxiv.org/abs/2509.13160">FinSearchComp</a> has received over 20 million views on X(Twitter), and is recently adopted in MiniMax-M2's report.
+            <li><b>Realistic LLM Eval</b>: We use realistic, professional and valuable tasks to benchmark LLM's true value in helping with daily works. Together with Prof. <a href="https://hsnamkoong.github.io/publications/">Hongseok Namkoong</a>, our <a href="https://arxiv.org/abs/2509.13160">FinSearchComp</a> has received over 20 million views on X(Twitter), and is recently adopted in MiniMax-M2's report and Kimi-K2-Thinking's report.
             </li>
             <li><b>LLM Calibration</b>: We design RL algorithms to calibrate LLM's confidence estimation, enabling LLM's to say "I don't know".</li>
           </ol>
