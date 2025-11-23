@@ -17,11 +17,14 @@ title: Research
 * **FinSearchComp: Towards a Realistic, Expert-Level Evaluation of Financial Search and Reasoning**\
   **Core Contributor**. ByteDance Seed, Columbia Business School.\
   *Technical Report*, 2025.\
+  *Reported in Minimax-M2 and Kimi-K2-thinking*\
    [paper](https://arxiv.org/abs/2509.13160)  [data](https://huggingface.co/datasets/ByteSeedXpert/FinSearchComp) [website](https://randomtutu.github.io/FinSearchComp/)
+  
 
 * **DRO: A Python Library for Distributionally Robust Optimization in Machine Learning**\
   **Jiashuo Liu***, Tianyu Wang*, Henry Lam, Hongseok Namkoong, Jose Blanchet.\
-  *OPT'25: Optimization for Machine Learning; under review at JMLR*, 2025.\
+  *OPT'25: Optimization for Machine Learning;\
+  R&R at JMLR*, 2025.\
    [paper](https://arxiv.org/pdf/2505.23565) [code](https://github.com/namkoong-lab/dro)
 
 * **On the Need of a Modeling Language for Distribution Shifts: Illustrations on Tabular Datasets**\
@@ -36,7 +39,7 @@ title: Research
 
 * **RLoop: An Self-Improving Framework for Reinforcement Learning with Iterative Policy Initialization**\
   Zhiyuan Zeng, **Jiashuo Liu**, Zhangyue Yin, Ge Zhang, Wenhao Huang, Xipeng Qiu\
-  [paper](https://arxiv.org/abs/2511.04285)
+  [paper](https://arxiv.org/abs/2511.04285) [code](https://github.com/vanderschaarlab/climb/tree/climb-dc-canonical)
 
 * **LPFQA: A Long-Tail Professional Forum-based Benchmark for LLM Evaluation**\
   Liya Zhu, Peizhuang Cong, Aowei Ji, Wenya Wu, Jiani Hou, Chunjie Wu, Xiang Gao, Jingkai Liu, Zhou Huan, Xuelei Sun, Yang Yang, Jianpeng Jiao, Liang Hu, Xinjie Chen, **Jiashuo Liu**, Jingzhe Ding, Tong Yang, Zaiyuan Wang, Ge Zhang, Wenhao Huang\
@@ -44,6 +47,11 @@ title: Research
 
 
 ## Publications
+* **Towards Human-Guided, Data-Centric LLM Co-Pilots**\
+  Evgeny Saveliev*, **Jiashuo Liu***, Nabeel Seedat*, Anders Boyd, Mihaela van der Schaar.\
+  *ICLR'25 Workshop on Navigating and Addressing Data Problems for Foundation Models*.\
+  *DMLR'25: Data-centric Machine Learning Research, 2025.*\
+   [paper](https://arxiv.org/pdf/2501.10321)
 
 * **Data Heterogeneity Modeling for Trustworthy Machine Learning**\
   **Jiashuo Liu**, Peng Cui.\
@@ -74,11 +82,6 @@ title: Research
   Nabeel Seedat*, **Jiashuo Liu***, Mihaela van der Schaar.\
   *ICLR'25 Workshop on Navigating and Addressing Data Problems for Foundation Models*, 2025.\
    [paper](https://openreview.net/pdf?id=2GEipEDZB0)
-
-* **Towards Human-Guided, Data-Centric LLM Co-Pilots**\
-  Evgeny Saveliev*, **Jiashuo Liu***, Nabeel Seedat*, Anders Boyd, Mihaela van der Schaar.\
-  *ICLR'25 Workshop on Navigating and Addressing Data Problems for Foundation Models; Accept with minor revision at DMLR*, 2025.\
-   [paper](https://arxiv.org/pdf/2501.10321)
 
 * **Towards Out-of-Distribution Generalization: A Survey**\
   **Jiashuo Liu***, Zheyan Shen*, Yue He, Xingxuan Zhang, Renzhe Xu, Han Yu, Peng Cui.\
