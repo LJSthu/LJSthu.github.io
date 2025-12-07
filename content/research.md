@@ -19,7 +19,12 @@ title: Research
   *Technical Report*, 2025.\
   *Reported in Minimax-M2 and Kimi-K2-thinking*\
    [paper](https://arxiv.org/abs/2509.13160)  [data](https://huggingface.co/datasets/ByteSeedXpert/FinSearchComp) [website](https://randomtutu.github.io/FinSearchComp/)
-  
+
+* **CryptoBench: A Dynamic Benchmark for Expert-Level Evaluation of LLM Agents in Cryptocurrency**\
+  **Core Contributor**. Princeton University etc.\
+  *Technical Report*, 2025.\
+   [paper](https://arxiv.org/pdf/2512.00417v2)
+
 
 * **DRO: A Python Library for Distributionally Robust Optimization in Machine Learning**\
   **Jiashuo Liu***, Tianyu Wang*, Henry Lam, Hongseok Namkoong, Jose Blanchet.\

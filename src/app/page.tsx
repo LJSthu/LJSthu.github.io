@@ -175,7 +175,8 @@ export default function Home() {
             "
           >
             <li><b>Reliable LLM Eval</b>: We design new perturbation algorithms and future prediction tasks with completely no data contamination to reliably assess the true capabilities of Agentic LLMs.
-              Together with Prof. <a href="https://ece.princeton.edu/people/mengdi-wang">Mengdi Wang</a>, our <a href="https://futurex-ai.github.io/">FutureX project</a>,described by Elon Musk as the "Best Measure of Intelligence"(<a href="https://x.com/elonmusk/status/1963877113049580023">media</a>), has received over 50 million views on X(Twitter).
+              Together with Prof. <a href="https://ece.princeton.edu/people/mengdi-wang">Mengdi Wang</a>, our <a href="https://futurex-ai.github.io/">FutureX project</a>,described by Elon Musk as the "Best Measure of Intelligence"(<a href="https://x.com/elonmusk/status/1963877113049580023">media</a>), has received over 100 million views on X(Twitter).
+              Following this line, we release <a href="https://arxiv.org/pdf/2512.00417v2">CryptoBench</a> for expert-level tasks in cryptocurrency domains.
               
             </li>
             <li><b>Efficient LLM Eval</b>: We design algorithms to efficiently and accurately evaluate LLM's performance.</li>
