@@ -45,7 +45,7 @@ export default function Home() {
               <p className="break-words">
                 <span className="font-medium"><b>Email</b></span>:{' '}
                 <span className="font-mono font-normal">
-                  liujiashuo.77@bytedance.com and liujiashuo77@gmail.com
+                  liujiashuo77@gmail.com
                 </span>
               </p>
               <p>
