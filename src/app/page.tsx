@@ -159,8 +159,8 @@ export default function Home() {
             [&_a]:text-blue-800 [&_a:hover]:text-blue-900 [&_a:visited]:text-blue-700
           "
         >
-          I focus on building next-generation LLM evaluation systems and large-scale, data-centric AI. I believe LLM evaluation should be <b>reliable</b>, <b>efficient</b>, and <b>anchored in realistic real-world tasks</b>, and it must rest on a deep understanding of data. <br></br><br></br>
-
+          I focus on building next-generation LLM evaluation systems and large-scale, data-centric AI. I believe LLM evaluation should be <b>reliable</b>, <b>efficient</b>, and <b>anchored in realistic real-world tasks</b>, and it must rest on a deep understanding of data.
+          I contribute to the Seed Evaluation System at ByteDance Seed (part of my insights are demonstrated in <a href="https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/research/Seed-1.8-Modelcard.pdf">Seed1.8 Model Card</a>). <br></br><br></br>
           Specific topics include:
           <ol
             className="

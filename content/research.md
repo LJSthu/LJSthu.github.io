@@ -8,6 +8,10 @@ title: Research
 - *Previous Interests*: Out-of-Distribution Generalization, Distributionally Robust Optimization
 
 ## Recent Highlights
+* **Seed1.8 Model Card: Towards Generalized Real-World Agency**\
+  **ByteDance Seed** (core contributor to the Seed Evaluation System)\
+  *Technical Report*, 2025.\
+  [paper](https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/research/Seed-1.8-Modelcard.pdf)
 
 * **FutureX: An Advanced Live Benchmark for LLM Agents in Future Prediction**\
   **Project Lead**. ByteDance Seed, Fudan University, Stanford University, Princeton University.\
@@ -49,6 +53,11 @@ title: Research
 * **LPFQA: A Long-Tail Professional Forum-based Benchmark for LLM Evaluation**\
   Liya Zhu, Peizhuang Cong, Aowei Ji, Wenya Wu, Jiani Hou, Chunjie Wu, Xiang Gao, Jingkai Liu, Zhou Huan, Xuelei Sun, Yang Yang, Jianpeng Jiao, Liang Hu, Xinjie Chen, **Jiashuo Liu**, Jingzhe Ding, Tong Yang, Zaiyuan Wang, Ge Zhang, Wenhao Huang\
   [paper](https://arxiv.org/abs/2511.06346)
+
+* **DiscoX: Benchmarking Discourse-Level Translation task in Expert Domains**\
+  **Contributor**. ByteDance Seed, Peking University\
+  [paper](https://www.arxiv.org/abs/2511.10984) [data](https://github.com/ByteDance-Seed/DiscoX)
+
 
 
 ## Publications
