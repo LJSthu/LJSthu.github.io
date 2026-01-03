@@ -4,7 +4,7 @@ title: Research
 
 ## Research interests
 - **Next-Gen LLM Evaluation**: Design (1) algorithms to efficiently and reliably assess LLM's true capabilities, and (2) benchmarks with completely no data contamination for reliable LLM evaluation
-- **Data-Centric AI**: Design scalable algorithms to understand data properties for LLM pretraining and RL
+- **Data-Centric AI**: Design scalable algorithms to understand data properties for RL
 - *Previous Interests*: Out-of-Distribution Generalization, Distributionally Robust Optimization
 
 ## Recent Highlights
@@ -18,37 +18,35 @@ title: Research
   *Technical Report*, 2025.\
    [paper](https://arxiv.org/abs/2508.11987) [data](https://huggingface.co/datasets/futurex-ai/Futurex-Online) [website](https://futurex-ai.github.io/) 
 
+* **LLM Swiss Round: Aggregating Multi-Benchmark Performance via Competitive Swiss-System Dynamics**\
+  **Jiashuo Liu**, Jiayun Wu, Chunjie Wu, Jingkai Liu, Zaiyuan Wang, Huan Zhou, Wenhao Huang, Hongseok Namkoong\
+   [paper](https://arxiv.org/pdf/2512.21010)
+
+* **Mitigating LLM Hallucination via Behaviorally Calibrated Reinforcement Learning**\
+  Jiayun Wu, **Jiashuo Liu**†, Zhiyuan Zeng, Tianyang Zhan, Tianle Cai, Wenhao Huang\
+   [paper](https://arxiv.org/pdf/2512.19920)
+
 * **FinSearchComp: Towards a Realistic, Expert-Level Evaluation of Financial Search and Reasoning**\
   **Core Contributor**. ByteDance Seed, Columbia Business School.\
   *Technical Report*, 2025.\
   *Reported in Minimax-M2 and Kimi-K2-thinking*\
    [paper](https://arxiv.org/abs/2509.13160)  [data](https://huggingface.co/datasets/ByteSeedXpert/FinSearchComp) [website](https://randomtutu.github.io/FinSearchComp/)
 
+
+## Recent Preprints
+
 * **CryptoBench: A Dynamic Benchmark for Expert-Level Evaluation of LLM Agents in Cryptocurrency**\
   **Core Contributor**. Princeton University etc.\
   *Technical Report*, 2025.\
    [paper](https://arxiv.org/pdf/2512.00417v2)
 
-
-* **DRO: A Python Library for Distributionally Robust Optimization in Machine Learning**\
-  **Jiashuo Liu***, Tianyu Wang*, Henry Lam, Hongseok Namkoong, Jose Blanchet.\
-  *OPT'25: Optimization for Machine Learning;\
-  R&R at JMLR*, 2025.\
-   [paper](https://arxiv.org/pdf/2505.23565) [code](https://github.com/namkoong-lab/dro)
-
-* **On the Need of a Modeling Language for Distribution Shifts: Illustrations on Tabular Datasets**\
-  **Jiashuo Liu***, Tianyu Wang*, Peng Cui, Hongseok Namkoong.\
-  *INFORMS'24 Workshop on Data Science (full paper, 2024); NeurIPS'23 Datasets & Benchmarks (2023); Major Revision at Management Science*.\
-  *Selected as the Favorite Paper by Two Sigma (9/3500)*\
-   [paper](https://arxiv.org/abs/2307.05284) [code](https://github.com/namkoong-lab/whyshift) [website](https://www.twosigma.com/articles/neurips-2023-our-favorite-papers-on-llms-statistical-learning-and-more/)
-
-
-
-## Recent Preprints
-
 * **RLoop: An Self-Improving Framework for Reinforcement Learning with Iterative Policy Initialization**\
   Zhiyuan Zeng, **Jiashuo Liu**, Zhangyue Yin, Ge Zhang, Wenhao Huang, Xipeng Qiu\
   [paper](https://arxiv.org/abs/2511.04285) [code](https://github.com/vanderschaarlab/climb/tree/climb-dc-canonical)
+
+* **AInsteinBench: Benchmarking Coding Agents on Scientific Repositories**\
+  **Contributor**. ByteDance Seed, Princeton University\
+   [paper](https://arxiv.org/pdf/2512.21373) [website](https://github.com/ByteDance-Seed/AInsteinBench)
 
 * **LPFQA: A Long-Tail Professional Forum-based Benchmark for LLM Evaluation**\
   Liya Zhu, Peizhuang Cong, Aowei Ji, Wenya Wu, Jiani Hou, Chunjie Wu, Xiang Gao, Jingkai Liu, Zhou Huan, Xuelei Sun, Yang Yang, Jianpeng Jiao, Liang Hu, Xinjie Chen, **Jiashuo Liu**, Jingzhe Ding, Tong Yang, Zaiyuan Wang, Ge Zhang, Wenhao Huang\
@@ -58,6 +56,11 @@ title: Research
   **Contributor**. ByteDance Seed, Peking University\
   [paper](https://www.arxiv.org/abs/2511.10984) [data](https://github.com/ByteDance-Seed/DiscoX)
 
+* **DRO: A Python Library for Distributionally Robust Optimization in Machine Learning**\
+  **Jiashuo Liu***, Tianyu Wang*, Henry Lam, Hongseok Namkoong, Jose Blanchet.\
+  *OPT'25: Optimization for Machine Learning;\
+  R&R at JMLR*, 2025.\
+   [paper](https://arxiv.org/pdf/2505.23565) [code](https://github.com/namkoong-lab/dro)
 
 
 ## Publications
@@ -160,6 +163,7 @@ title: Research
 * **On the Need of a Modeling Language for Distribution Shifts: Illustrations on Tabular Datasets**\
   **Jiashuo Liu***, Tianyu Wang*, Peng Cui, Hongseok Namkoong.\
   *INFORMS'24 Workshop on Data Science (full paper, 2024); NeurIPS'23 Datasets & Benchmarks (2023); Major Revision at Management Science*.\
+  *Selected as the Favorite Paper by Two Sigma (9/3500)*\
    [paper](https://arxiv.org/abs/2307.05284) [code](https://github.com/namkoong-lab/whyshift) [website](https://www.twosigma.com/articles/neurips-2023-our-favorite-papers-on-llms-statistical-learning-and-more/)
 
 * **Offline Policy Evaluation in Large Action Spaces via Outcome-Oriented Action Grouping**\

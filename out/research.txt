@@ -1,10 +1,10 @@
 1:"$Sreact.fragment"
-2:I[9243,["853","static/chunks/853-daf7ffeec95aed65.js","177","static/chunks/app/layout-24fe171d3dde56e3.js"],""]
-3:I[5476,["853","static/chunks/853-daf7ffeec95aed65.js","177","static/chunks/app/layout-24fe171d3dde56e3.js"],"default"]
+2:I[9243,["853","static/chunks/853-daf7ffeec95aed65.js","177","static/chunks/app/layout-5ae3aa0f2ad656f2.js"],""]
+3:I[5476,["853","static/chunks/853-daf7ffeec95aed65.js","177","static/chunks/app/layout-5ae3aa0f2ad656f2.js"],"default"]
 4:I[7555,[],""]
 5:I[1295,[],""]
-6:I[6874,["853","static/chunks/853-daf7ffeec95aed65.js","874","static/chunks/874-1b85ae6e4e343847.js","146","static/chunks/146-40ea0e818b01cdc9.js","322","static/chunks/app/research/page-0256e61628c65e08.js"],""]
-7:I[4090,["853","static/chunks/853-daf7ffeec95aed65.js","874","static/chunks/874-1b85ae6e4e343847.js","146","static/chunks/146-40ea0e818b01cdc9.js","322","static/chunks/app/research/page-0256e61628c65e08.js"],"default"]
+6:I[6874,["853","static/chunks/853-daf7ffeec95aed65.js","874","static/chunks/874-1b85ae6e4e343847.js","146","static/chunks/146-40ea0e818b01cdc9.js","322","static/chunks/app/research/page-09bac393949fe287.js"],""]
+7:I[4090,["853","static/chunks/853-daf7ffeec95aed65.js","874","static/chunks/874-1b85ae6e4e343847.js","146","static/chunks/146-40ea0e818b01cdc9.js","322","static/chunks/app/research/page-09bac393949fe287.js"],"default"]
 9:I[9665,[],"MetadataBoundary"]
 b:I[9665,[],"OutletBoundary"]
 e:I[4911,[],"AsyncMetadataOutlet"]
@@ -13,10 +13,10 @@ e:I[4911,[],"AsyncMetadataOutlet"]
 :HL["/_next/static/media/4cf2300e9c8272f7-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/media/93f479601ee12b01-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/css/fd63086fa2b704e8.css","style"]
-8:T346d,
+8:T3521,
 ## Research interests
 - **Next-Gen LLM Evaluation**: Design (1) algorithms to efficiently and reliably assess LLM's true capabilities, and (2) benchmarks with completely no data contamination for reliable LLM evaluation
-- **Data-Centric AI**: Design scalable algorithms to understand data properties for LLM pretraining and RL
+- **Data-Centric AI**: Design scalable algorithms to understand data properties for RL
 - *Previous Interests*: Out-of-Distribution Generalization, Distributionally Robust Optimization
 
 ## Recent Highlights
@@ -30,37 +30,35 @@ e:I[4911,[],"AsyncMetadataOutlet"]
   *Technical Report*, 2025.\
    [paper](https://arxiv.org/abs/2508.11987) [data](https://huggingface.co/datasets/futurex-ai/Futurex-Online) [website](https://futurex-ai.github.io/) 
 
+* **LLM Swiss Round: Aggregating Multi-Benchmark Performance via Competitive Swiss-System Dynamics**\
+  **Jiashuo Liu**, Jiayun Wu, Chunjie Wu, Jingkai Liu, Zaiyuan Wang, Huan Zhou, Wenhao Huang, Hongseok Namkoong\
+   [paper](https://arxiv.org/pdf/2512.21010)
+
+* **Mitigating LLM Hallucination via Behaviorally Calibrated Reinforcement Learning**\
+  Jiayun Wu, **Jiashuo Liu**†, Zhiyuan Zeng, Tianyang Zhan, Tianle Cai, Wenhao Huang\
+   [paper](https://arxiv.org/pdf/2512.19920)
+
 * **FinSearchComp: Towards a Realistic, Expert-Level Evaluation of Financial Search and Reasoning**\
   **Core Contributor**. ByteDance Seed, Columbia Business School.\
   *Technical Report*, 2025.\
   *Reported in Minimax-M2 and Kimi-K2-thinking*\
    [paper](https://arxiv.org/abs/2509.13160)  [data](https://huggingface.co/datasets/ByteSeedXpert/FinSearchComp) [website](https://randomtutu.github.io/FinSearchComp/)
 
+
+## Recent Preprints
+
 * **CryptoBench: A Dynamic Benchmark for Expert-Level Evaluation of LLM Agents in Cryptocurrency**\
   **Core Contributor**. Princeton University etc.\
   *Technical Report*, 2025.\
    [paper](https://arxiv.org/pdf/2512.00417v2)
 
-
-* **DRO: A Python Library for Distributionally Robust Optimization in Machine Learning**\
-  **Jiashuo Liu***, Tianyu Wang*, Henry Lam, Hongseok Namkoong, Jose Blanchet.\
-  *OPT'25: Optimization for Machine Learning;\
-  R&R at JMLR*, 2025.\
-   [paper](https://arxiv.org/pdf/2505.23565) [code](https://github.com/namkoong-lab/dro)
-
-* **On the Need of a Modeling Language for Distribution Shifts: Illustrations on Tabular Datasets**\
-  **Jiashuo Liu***, Tianyu Wang*, Peng Cui, Hongseok Namkoong.\
-  *INFORMS'24 Workshop on Data Science (full paper, 2024); NeurIPS'23 Datasets & Benchmarks (2023); Major Revision at Management Science*.\
-  *Selected as the Favorite Paper by Two Sigma (9/3500)*\
-   [paper](https://arxiv.org/abs/2307.05284) [code](https://github.com/namkoong-lab/whyshift) [website](https://www.twosigma.com/articles/neurips-2023-our-favorite-papers-on-llms-statistical-learning-and-more/)
-
-
-
-## Recent Preprints
-
 * **RLoop: An Self-Improving Framework for Reinforcement Learning with Iterative Policy Initialization**\
   Zhiyuan Zeng, **Jiashuo Liu**, Zhangyue Yin, Ge Zhang, Wenhao Huang, Xipeng Qiu\
   [paper](https://arxiv.org/abs/2511.04285) [code](https://github.com/vanderschaarlab/climb/tree/climb-dc-canonical)
+
+* **AInsteinBench: Benchmarking Coding Agents on Scientific Repositories**\
+  **Contributor**. ByteDance Seed, Princeton University\
+   [paper](https://arxiv.org/pdf/2512.21373) [website](https://github.com/ByteDance-Seed/AInsteinBench)
 
 * **LPFQA: A Long-Tail Professional Forum-based Benchmark for LLM Evaluation**\
   Liya Zhu, Peizhuang Cong, Aowei Ji, Wenya Wu, Jiani Hou, Chunjie Wu, Xiang Gao, Jingkai Liu, Zhou Huan, Xuelei Sun, Yang Yang, Jianpeng Jiao, Liang Hu, Xinjie Chen, **Jiashuo Liu**, Jingzhe Ding, Tong Yang, Zaiyuan Wang, Ge Zhang, Wenhao Huang\
@@ -70,6 +68,11 @@ e:I[4911,[],"AsyncMetadataOutlet"]
   **Contributor**. ByteDance Seed, Peking University\
   [paper](https://www.arxiv.org/abs/2511.10984) [data](https://github.com/ByteDance-Seed/DiscoX)
 
+* **DRO: A Python Library for Distributionally Robust Optimization in Machine Learning**\
+  **Jiashuo Liu***, Tianyu Wang*, Henry Lam, Hongseok Namkoong, Jose Blanchet.\
+  *OPT'25: Optimization for Machine Learning;\
+  R&R at JMLR*, 2025.\
+   [paper](https://arxiv.org/pdf/2505.23565) [code](https://github.com/namkoong-lab/dro)
 
 
 ## Publications
@@ -172,6 +175,7 @@ e:I[4911,[],"AsyncMetadataOutlet"]
 * **On the Need of a Modeling Language for Distribution Shifts: Illustrations on Tabular Datasets**\
   **Jiashuo Liu***, Tianyu Wang*, Peng Cui, Hongseok Namkoong.\
   *INFORMS'24 Workshop on Data Science (full paper, 2024); NeurIPS'23 Datasets & Benchmarks (2023); Major Revision at Management Science*.\
+  *Selected as the Favorite Paper by Two Sigma (9/3500)*\
    [paper](https://arxiv.org/abs/2307.05284) [code](https://github.com/namkoong-lab/whyshift) [website](https://www.twosigma.com/articles/neurips-2023-our-favorite-papers-on-llms-statistical-learning-and-more/)
 
 * **Offline Policy Evaluation in Large Action Spaces via Outcome-Oriented Action Grouping**\
@@ -235,7 +239,7 @@ e:I[4911,[],"AsyncMetadataOutlet"]
    [paper](https://dl.acm.org/doi/10.1145/3394486.3403269)
 
 
-0:{"P":null,"b":"eyeaCpr_EDGK-1CsDtfDo","p":"","c":["","research"],"i":false,"f":[[["",{"children":["research",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/fd63086fa2b704e8.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"__variable_188709 __variable_9a8899","children":[["$","head",null,{"children":["$","$L2",null,{"crossOrigin":"anonymous","src":"//unpkg.com/same-runtime/dist/index.global.js"}]}],["$","body",null,{"suppressHydrationWarning":true,"className":"antialiased","children":["$","$L3",null,{"children":["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}]]}],{"children":["research",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":[["$","div",null,{"className":"min-h-screen bg-white","children":["$","div",null,{"className":"container mx-auto px-8 py-12 max-w-4xl","children":[[["$","hr",null,{"className":"mb-4 border-gray-100"}],["$","nav",null,{"aria-label":"Primary","className":"mb-4","children":["$","div",null,{"className":"overflow-x-auto sm:overflow-visible -mx-4 px-4","children":["$","ol",null,{"className":"flex items-center flex-nowrap sm:flex-wrap gap-3 sm:gap-4 text-base sm:text-2xl","children":[["$","li","/",{"className":"relative pl-3 first:pl-0 before:content-['/'] first:before:content-[''] before:absolute before:left-0 before:font-bold","children":["$","$L6",null,{"href":"/","className":"font-bold text-blue-800 hover:underline focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-500","aria-current":"$undefined","children":"Home"}]}],["$","li","/research",{"className":"relative pl-3 first:pl-0 before:content-['/'] first:before:content-[''] before:absolute before:left-0 before:font-bold","children":["$","span",null,{"className":"font-bold","children":"Research"}]}],["$","li","/talks",{"className":"relative pl-3 first:pl-0 before:content-['/'] first:before:content-[''] before:absolute before:left-0 before:font-bold","children":["$","$L6",null,{"href":"/talks","className":"font-bold text-blue-800 hover:underline focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-500","aria-current":"$undefined","children":"Talks"}]}],["$","li","/misc",{"className":"relative pl-3 first:pl-0 before:content-['/'] first:before:content-[''] before:absolute before:left-0 before:font-bold","children":["$","$L6",null,{"href":"/misc","className":"font-bold text-blue-800 hover:underline focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-500","aria-current":"$undefined","children":"Miscellanea"}]}]]}]}]}],["$","hr",null,{"className":"mb-6 border-gray-100"}]],["$","$L7",null,{"content":"$8"}]]}]}],["$","$L9",null,{"children":"$La"}],null,["$","$Lb",null,{"children":["$Lc","$Ld",["$","$Le",null,{"promise":"$@f"}]]}]]}],{},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","ccndk4rOv79DQ5m3C2WxR",{"children":[["$","$L10",null,{"children":"$L11"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],null]}],false]],"m":"$undefined","G":["$12","$undefined"],"s":false,"S":true}
+0:{"P":null,"b":"OSqCdHZE8O6dsdBw2GCXK","p":"","c":["","research"],"i":false,"f":[[["",{"children":["research",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/fd63086fa2b704e8.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"__variable_188709 __variable_9a8899","children":[["$","head",null,{"children":["$","$L2",null,{"crossOrigin":"anonymous","src":"//unpkg.com/same-runtime/dist/index.global.js"}]}],["$","body",null,{"suppressHydrationWarning":true,"className":"antialiased","children":["$","$L3",null,{"children":["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}]]}],{"children":["research",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":[["$","div",null,{"className":"min-h-screen bg-white","children":["$","div",null,{"className":"container mx-auto px-8 py-12 max-w-4xl","children":[[["$","hr",null,{"className":"mb-4 border-gray-100"}],["$","nav",null,{"aria-label":"Primary","className":"mb-4","children":["$","div",null,{"className":"overflow-x-auto sm:overflow-visible -mx-4 px-4","children":["$","ol",null,{"className":"flex items-center flex-nowrap sm:flex-wrap gap-3 sm:gap-4 text-base sm:text-2xl","children":[["$","li","/",{"className":"relative pl-3 first:pl-0 before:content-['/'] first:before:content-[''] before:absolute before:left-0 before:font-bold","children":["$","$L6",null,{"href":"/","className":"font-bold text-blue-800 hover:underline focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-500","aria-current":"$undefined","children":"Home"}]}],["$","li","/research",{"className":"relative pl-3 first:pl-0 before:content-['/'] first:before:content-[''] before:absolute before:left-0 before:font-bold","children":["$","span",null,{"className":"font-bold","children":"Research"}]}],["$","li","/talks",{"className":"relative pl-3 first:pl-0 before:content-['/'] first:before:content-[''] before:absolute before:left-0 before:font-bold","children":["$","$L6",null,{"href":"/talks","className":"font-bold text-blue-800 hover:underline focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-500","aria-current":"$undefined","children":"Talks"}]}],["$","li","/misc",{"className":"relative pl-3 first:pl-0 before:content-['/'] first:before:content-[''] before:absolute before:left-0 before:font-bold","children":["$","$L6",null,{"href":"/misc","className":"font-bold text-blue-800 hover:underline focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-500","aria-current":"$undefined","children":"Miscellanea"}]}]]}]}]}],["$","hr",null,{"className":"mb-6 border-gray-100"}]],["$","$L7",null,{"content":"$8"}]]}]}],["$","$L9",null,{"children":"$La"}],null,["$","$Lb",null,{"children":["$Lc","$Ld",["$","$Le",null,{"promise":"$@f"}]]}]]}],{},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","RnhRr1-Lz-1_de6JTcIKw",{"children":[["$","$L10",null,{"children":"$L11"}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],null]}],false]],"m":"$undefined","G":["$12","$undefined"],"s":false,"S":true}
 13:"$Sreact.suspense"
 14:I[4911,[],"AsyncMetadata"]
 a:["$","$13",null,{"fallback":null,"children":["$","$L14",null,{"promise":"$@15"}]}]

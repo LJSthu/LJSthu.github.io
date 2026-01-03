@@ -122,7 +122,9 @@ export default function Home() {
             [&_a]:text-blue-800 [&_a:hover]:text-blue-900 [&_a:visited]:text-blue-700
           "
         >
-          I'm a Research Scientist at ByteDance Seed, as a member of <span className="font-medium">TopSeed</span>{' '}
+          I work on LLM Eval & Data. <br></br><br></br>
+
+          I was a Research Scientist at ByteDance Seed, as a member of <span className="font-medium">TopSeed</span>{' '}
           Program, working with{' '}
           <a href="https://scholar.google.com/citations?user=OdE3MsQAAAAJ&hl=zh-CN" target="_blank" rel="noopener noreferrer">
             Wenhao Huang
@@ -176,13 +178,13 @@ export default function Home() {
           >
             <li><b>Reliable LLM Eval</b>: We design new perturbation algorithms and future prediction tasks with completely no data contamination to reliably assess the true capabilities of Agentic LLMs.
               Together with Prof. <a href="https://ece.princeton.edu/people/mengdi-wang">Mengdi Wang</a>, our <a href="https://futurex-ai.github.io/">FutureX project</a>,described by Elon Musk as the "Best Measure of Intelligence"(<a href="https://x.com/elonmusk/status/1963877113049580023">media</a>), has received over 100 million views on X(Twitter).
-              Following this line, we release <a href="https://arxiv.org/pdf/2512.00417v2">CryptoBench</a> for expert-level tasks in cryptocurrency domains.
+              Following this line, we release <a href="https://arxiv.org/pdf/2512.00417v2">CryptoBench</a> for expert-level tasks in cryptocurrency domains. Also, we design <a href="https://arxiv.org/pdf/2512.21010">LLM Swiss Round</a> to give a holistic ranking of leading LLMs.
               
             </li>
             <li><b>Efficient LLM Eval</b>: We design algorithms to efficiently and accurately evaluate LLM's performance.</li>
             <li><b>Realistic LLM Eval</b>: We use realistic, professional and valuable tasks to benchmark LLM's true value in helping with daily works. Together with Prof. <a href="https://hsnamkoong.github.io/publications/">Hongseok Namkoong</a>, our <a href="https://arxiv.org/abs/2509.13160">FinSearchComp</a> has received over 20 million views on X(Twitter), and is recently adopted in MiniMax-M2's report and Kimi-K2-Thinking's report.
             </li>
-            <li><b>LLM Calibration</b>: We design RL algorithms to calibrate LLM's confidence estimation, enabling LLM's to say "I don't know".</li>
+            <li><b>LLM Calibration</b>: We design <a href="https://arxiv.org/pdf/2512.19920">Behaviorally Calibrated-RL</a> to calibrate LLM's confidence estimation, enabling LLM's to say "I don't know".</li>
           </ol>
         </div>
 
